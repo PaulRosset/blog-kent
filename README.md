@@ -1,4 +1,4 @@
-# Blog-kent �🇷 - 🇬🇧
+# Blog-kent 🇫🇷 - 🇬🇧
 
 #### Blog Kent University (French) made with Gatsby. From student for student.
 
