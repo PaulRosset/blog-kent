@@ -1,2 +1,11 @@
-# blog-kent
-Blog Kent University (French) made with Gatsby
+# Blog-kent
+
+#### Blog Kent University (French) made with Gatsby. From student for student.
+
+![](https://img.shields.io/badge/site-online-brightgreen.svg?longCache=true)
+
+![](ukc.jpg)
+
+## Author
+
+Paul Rosset
