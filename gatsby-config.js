@@ -1,16 +1,22 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: "Gatsby Default Starter",
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    "gatsby-plugin-react-helmet",
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/markdowns`,
-        name: 'markdown-pages',
+        name: "markdown-pages",
       },
     },
-    'gatsby-transformer-remark',
+    "gatsby-transformer-remark",
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`roboto`],
+      },
+    },
   ],
-}
+};
