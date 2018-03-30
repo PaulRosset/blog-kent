@@ -11,11 +11,18 @@ module.exports = {
         name: "markdown-pages",
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/imgs`,
+        name: "images-markdown",
+      },
+    },
     "gatsby-transformer-remark",
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`roboto`],
+        fonts: [`roboto`, `lato`],
       },
     },
   ],

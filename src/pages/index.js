@@ -77,7 +77,7 @@ const IndexPage = () => (
       <br />Les faits et les appréciations que nous donnerons, seront uniquement
       nos ressentis.<br /> L'année concernée est 2017 - 2018.
     </Intro>
-    <Access to="/page-2/">Go to page 2</Access>
+    <Access to="/page-2/">Voir les articles!</Access>
   </Container>
 );
 

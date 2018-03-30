@@ -1,7 +1,6 @@
 {
   "name": "blog-kent",
-  "description":
-    "French blog for future student from France about Kent University in Canterbury, UK",
+  "description": "French blog for future student from France about Kent University in Canterbury, UK",
   "version": "1.0.0",
   "author": "Paul Rosset <paulrosset96@gmail.com>",
   "dependencies": {
@@ -10,16 +9,23 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.8",
     "@fortawesome/react-fontawesome": "^0.0.18",
     "gatsby": "^1.9.241",
+    "gatsby-image": "^1.0.42",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-google-fonts": "^0.0.4",
     "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby-plugin-sharp": "^1.6.41",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",
+    "gatsby-transformer-sharp": "^1.6.22",
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0",
+    "react-morph": "^0.3.5",
+    "rehover": "^0.3.2",
     "styled-components": "^3.2.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
