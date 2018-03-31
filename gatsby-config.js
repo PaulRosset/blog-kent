@@ -26,5 +26,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-react-next",
+    "gatsby-transformer-sharp",
   ],
 };

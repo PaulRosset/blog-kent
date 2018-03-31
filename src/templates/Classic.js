@@ -75,18 +75,19 @@ export default function Template({ data }) {
           <Rehover delay={150}>
             <Share source icon={faShareAlt} />
             <ContainerShareButton destination>
-              <Tooltip
-                // options
-                title="Welcome to React"
-                position="bottom"
-              >
+              <Tooltip title="Partager sur Twitter!" position="bottom">
                 <a href="">
                   <ShareButton icon={faTwitter} color="#00aced" />
                 </a>
               </Tooltip>
-              <a href="https://github/PaulRosset/blog-kent">
-                <ShareButton icon={faGithub} color="#767676" />
-              </a>
+              <Tooltip
+                title="Effectuer une Pull request sur Github!"
+                position="bottom"
+              >
+                <a href="https://github/PaulRosset/blog-kent">
+                  <ShareButton icon={faGithub} color="#767676" />
+                </a>
+              </Tooltip>
             </ContainerShareButton>
           </Rehover>
         </ContainerShare>
@@ -103,6 +104,7 @@ export const pageQuery = graphql`
         date(formatString: "DD/MM/YYYY")
         path
         title
+        author
       }
     }
   }

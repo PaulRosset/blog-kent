@@ -46,6 +46,7 @@ export const query = graphql`
             path
             date(formatString: "DD/MM/YYYY")
             meta
+            author
           }
           excerpt
         }

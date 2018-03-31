@@ -29,10 +29,6 @@ const Meta = styled.div`
   margin-top: 5px;
 `;
 
-const Image = styled.img`
-  height: 10rem;
-`;
-
 const Icon = styled(FontAwesome)`
   color: #333535;
   transition: 0.4s;
@@ -45,15 +41,15 @@ const Icon = styled(FontAwesome)`
 `;
 
 export function Post(props) {
-  const { title, path, date, meta } = props.node.frontmatter;
+  const { title, path, date, meta, author } = props.node.frontmatter;
   const { excerpt } = props.node;
   return (
     <ContainerPost>
-      <Image src="http://via.placeholder.com/150x250" />
       <ContainerData>
         <Title>{title}</Title>
         <Meta>{date}</Meta>
         <Meta>{meta}</Meta>
+        <Meta>{author}</Meta>
         <p>{excerpt}</p>
         <Link to={path}>
           <Icon icon={faPlay} />
