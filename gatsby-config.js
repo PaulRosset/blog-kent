@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Default Starter",
+    title: "Blog Kent University",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -25,5 +25,6 @@ module.exports = {
         fonts: [`roboto`, `lato`],
       },
     },
+    "gatsby-plugin-react-next",
   ],
 };

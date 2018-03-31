@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Linked, LinkedReal } from "./../CommonStyle";
+import Link from "gatsby-link";
+import Helmet from "react-helmet";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -8,6 +10,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/fontawesome-free-brands";
+import Polo from "./../../images/polo.jpg";
 
 const HeaderContainer = styled.div`
   height: 5rem;
@@ -40,7 +43,9 @@ const Image = styled.img`
 const Header = () => (
   <HeaderContainer>
     <LeftSide>
-      <Image src="http://via.placeholder.com/150x150" />
+      <Link to="/">
+        <Image src={Polo} />
+      </Link>
       <span style={{ marginLeft: 10 }}>Paul Rosset</span>
     </LeftSide>
     <RightSide>
