@@ -64,7 +64,7 @@ const IndexPage = () => (
         Pour participer ? Soumettez une pull request!
       </div>
     </Intro>
-    <Access to="/page-2/">Voir les articles!</Access>
+    <Access to="/board">Voir les articles!</Access>
   </Container>
 );
 

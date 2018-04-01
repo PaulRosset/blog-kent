@@ -53,10 +53,10 @@ const Header = () => (
   <HeaderContainer>
     <LeftSide>
       <ContainerImage>
-        <a href="/" style={{ alignSelf: "center" }}>
+        <a href="http://www.epitech.eu/" style={{ alignSelf: "center" }}>
           <Image size={2} src={Epitech} />
         </a>
-        <a href="/">
+        <a href="https://www.kent.ac.uk/">
           <Image size={3} src={Kent} />
         </a>
       </ContainerImage>

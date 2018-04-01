@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Blog Kent University",
+    title: `Blog Kent University - Epitech`,
+    siteUrl: `https://epikent.paulrossethings.com`,
+    description: `Blog Kent University (French). Made by student for student.`,
   },
   plugins: [
     "gatsby-plugin-react-helmet",

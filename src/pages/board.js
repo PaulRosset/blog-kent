@@ -10,9 +10,6 @@ const Container = styled.div`
 
 const BoardContainer = styled.div`
   padding: 1em;
-  box-shadow: 0 0 0 0.1em rgba(0, 0, 0, 0.1) inset;
-  background-color: #00012;
-  border-radius: 5px;
   display: flex;
   margin: 25px 0;
 `;

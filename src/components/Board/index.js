@@ -3,9 +3,10 @@ import styled from "styled-components";
 import Link from "gatsby-link";
 import FontAwesome from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/fontawesome-free-solid";
+import { Tooltip } from "react-tippy";
 
 const ContainerPost = styled.div`
-  box-shadow: 0px 0px 4px #333535;
+  box-shadow: 0px 0px 8px #b6bdbe;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -19,7 +20,9 @@ const ContainerData = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Lato";
 `;
 
 const Meta = styled.div`
@@ -51,9 +54,11 @@ export function Post(props) {
         <Meta>{meta}</Meta>
         <Meta>{author}</Meta>
         <p>{excerpt}</p>
-        <Link to={path}>
-          <Icon icon={faPlay} />
-        </Link>
+        <Tooltip title="Voir l'article!" position="bottom">
+          <Link to={path}>
+            <Icon icon={faPlay} />
+          </Link>
+        </Tooltip>
       </ContainerData>
     </ContainerPost>
   );
