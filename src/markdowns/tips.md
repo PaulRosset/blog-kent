@@ -1,0 +1,29 @@
+---
+path: "/blog/tips&trick"
+date: "2017-08-12"
+title: "Tips and Trick"
+meta: "kent, epitech, tips, trick"
+author: "@PaulRosset"
+---
+
+### Informations...
+
+J'actualiserai le plus souvent possible ce post, qui traitera des conseils que l'on peut donner uniquement après avoir vécu là-bas.<br> Je me souviens d'un conseil ultérieur à mon départ qui disait que plus on est organisé et moins l'on gaspillera d'argent, pour des choses que l'on aurait pu éviter si on l'était.
+
+* Le premier que je peux vous donner, est de trouver un moyen pour éviter de payer toutes les **taxes bancaire** car cela représentera un énorme coût que l'on aurait pu dépenser dans des loisirs. En ce qui me concerne, la société générale propose une option à 5€ par mois pour ne pas avoir de taxe. J'ai également utilisé tout au long de l'année [**Revolut**](https://revolut.com/r/paullnec) qui est une banque en ligne très libertarienne.
+
+* Il y a également une carte pour les transports en commun pour Londres qui permet d'avoir tous les trajets pour moitié moins cher. Vous achetez la carte et la charger comme vous le souhaitez. Comme je suis sûre d'aller à Londres et comme j'arrive à Londres par avion il me faudra prendre des transports en commun. Cette carte s'appelle la **Oyster card**.
+
+* J'ai également pris la Rail Card (18 - 25 ans) qui coûte **30£** pour l'année et qui permet d'avoir des réductions importantes sur les transports tel que le train (example: Canterbury - Londres) ou le métro à Londres.
+
+- Vous pouvez aussi prendre votre billet d'avion le plus tôt possible. J'ai choisis d'y aller en avion. j'ai fait **Nice - Gatwick, Gatwick - St Pancras** et **St Pancras - Canterbury**.
+
+- Pour ma part, j'ai pris deux valises de 20kg chacune, pour le **Woolf college**, rien n'est fourni, il faut apporter ou acheter sur place, la vaisselle, la literie, ustensiles de cuisine, etc...
+
+Cependant, il y a quelques packs que l'on peut acheter sur place notamment pour la cuisine et la literie.
+
+J'ai donc pris le minium de vaisselle et de literie, j'ai même réussi à emporter ma couette, un coussin et des draps dans ma valise en les compressant dans un sac hermétique et en aspirant l'air pour les compacter, cela marche vraiment bien pour emporter des choses volumineuses dans ses valises.
+
+* Une fois arrivé sur place, je peux vous en dire un peu plus. Nous avons souscrit à une offre pour le bus de Canterbury et ses alentours, ils proposaient une offre à **175£** pour 275 jours au lieu de **250£**, sachant qu'un ticket ici single est à **2.90£**. La carte s'est avérait tres utile et "worth", je pourrais même dire que c'est de loin le meilleur achat que j'ai fais à Canterbury 😄.
+
+* Pour la salle de sport, l'abonnement à l'année est à **230£**, mais il y a une offre de -20£ si on commande en ligne, avant d'arrivé sur le campus.
