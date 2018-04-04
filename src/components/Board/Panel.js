@@ -1,10 +1,12 @@
 import React, { PureComponent, Fragment } from "react";
 import styled from "styled-components";
 import FontAwesome from "@fortawesome/react-fontawesome";
+import Rehover from "rehover";
 import {
   faAlignCenter,
   faSort,
   faObjectGroup,
+  faUser,
 } from "@fortawesome/fontawesome-free-solid";
 
 const ContainerPanel = styled.div`
@@ -62,18 +64,18 @@ class Panel extends PureComponent {
     const { isOpenMenu } = this.state;
     return (
       <ContainerPanel>
-        <Icon icon={faAlignCenter} onClick={this.handleOpenMenu} />
-        {isOpenMenu && (
-          <ContainerTools>
+        <Rehover delay={150}>
+          <Icon source icon={faAlignCenter} onClick={this.handleOpenMenu} />
+          <ContainerTools destination>
             <Tool
               icon={faSort}
               color="#21ba45"
               style={{ padding: "0.5em 0.7em" }}
             />
             <Tool icon={faObjectGroup} color="#2185d0" />
-            {/* <Tool icon={} /> */}
+            <Tool icon={faUser} color="#fbbd08" />
           </ContainerTools>
-        )}
+        </Rehover>
       </ContainerPanel>
     );
   }

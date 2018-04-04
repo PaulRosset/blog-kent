@@ -3,6 +3,8 @@ import Link from "gatsby-link";
 import styled from "styled-components";
 import { Post } from "../components/Board/index";
 import Panel from "../components/Board/Panel";
+import { connect } from "react-redux";
+import { getBlogPosts } from "../states/actions";
 
 const Container = styled.div`
   text-align: center;
@@ -11,13 +13,14 @@ const Container = styled.div`
 const BoardContainer = styled.div`
   padding: 1em;
   display: flex;
+  flex-wrap: wrap;
   margin: 25px 0;
 `;
 
 class Board extends Component {
   constructor(props) {
     super(props);
-    console.log(this.props);
+    this.props.getBlogPosts(this.props.data.allMarkdownRemark.edges);
   }
 
   render() {
@@ -52,4 +55,4 @@ export const query = graphql`
   }
 `;
 
-export default Board;
+export default connect(state => ({ ...state.getter }), { getBlogPosts })(Board);
