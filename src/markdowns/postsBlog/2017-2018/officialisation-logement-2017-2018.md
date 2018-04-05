@@ -1,8 +1,9 @@
 ---
-path: "/blog/officialisation"
+path: "/blog/2017-2018/officialisation-logement"
 date: "2017-04-20"
 title: "Officialisation et Logement"
 meta: "kent, epitech, tips, trick"
+year: "2017-2018"
 author: "@PaulRosset"
 ---
 

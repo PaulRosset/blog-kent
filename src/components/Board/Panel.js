@@ -8,6 +8,8 @@ import {
   faObjectGroup,
   faUser,
 } from "@fortawesome/fontawesome-free-solid";
+import { connect } from "react-redux";
+import { sortBy } from "./../../states/actions";
 
 const ContainerPanel = styled.div`
   margin: 25px 0;
@@ -44,6 +46,13 @@ const Tool = styled(FontAwesome)`
   border-radius: 500em;
   padding: 0.5em;
   margin: 5px;
+  transition: 0.4s;
+
+  &:hover {
+    transition: 0.4s;
+    background: ${props => props.hoverColor};
+    color: white;
+  }
 `;
 
 class Panel extends PureComponent {
@@ -71,9 +80,10 @@ class Panel extends PureComponent {
               icon={faSort}
               color="#21ba45"
               style={{ padding: "0.5em 0.7em" }}
+              hoverColor="#000"
             />
-            <Tool icon={faObjectGroup} color="#2185d0" />
-            <Tool icon={faUser} color="#fbbd08" />
+            <Tool icon={faObjectGroup} color="#2185d0" hoverColor="#000" />
+            <Tool icon={faUser} color="#fbbd08" hoverColor="#000" />
           </ContainerTools>
         </Rehover>
       </ContainerPanel>
@@ -81,4 +91,4 @@ class Panel extends PureComponent {
   }
 }
 
-export default Panel;
+export default connect(_, {})(Panel);

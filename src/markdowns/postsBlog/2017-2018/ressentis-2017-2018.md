@@ -1,8 +1,9 @@
 ---
-path: "/blog/ressentis"
+path: "/blog/2017-2018/ressentis-quelques-jours"
 date: "2017-09-19"
 title: "Quelques jours"
 meta: "kent, epitech, firstday, 3days"
+year: "2017-2018"
 author: "@PaulRosset"
 ---
 

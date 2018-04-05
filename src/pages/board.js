@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { Post } from "../components/Board/index";
 import Panel from "../components/Board/Panel";
 import { connect } from "react-redux";
-import { getBlogPosts } from "../states/actions";
+import { getBlogPosts$ } from "../states/actions";
 
 const Container = styled.div`
   text-align: center;
@@ -20,7 +20,7 @@ const BoardContainer = styled.div`
 class Board extends Component {
   constructor(props) {
     super(props);
-    this.props.getBlogPosts(this.props.data.allMarkdownRemark.edges);
+    this.props.getBlogPosts$(this.props.data.allMarkdownRemark.edges);
   }
 
   render() {
@@ -47,6 +47,7 @@ export const query = graphql`
             date(formatString: "DD/MM/YYYY")
             meta
             author
+            year
           }
           excerpt
         }

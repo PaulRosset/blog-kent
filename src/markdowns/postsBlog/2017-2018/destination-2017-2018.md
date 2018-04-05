@@ -1,8 +1,9 @@
 ---
-path: "/blog/destination"
+path: "/blog/2017-2018/destination-final"
 date: "2017-02-21"
 title: "Nous irons à Kent University !"
 meta: "kent, epitech, depart"
+year: "2017-2018"
 author: "@PaulRosset"
 ---
 

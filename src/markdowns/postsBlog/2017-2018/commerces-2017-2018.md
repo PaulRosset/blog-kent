@@ -1,8 +1,9 @@
 ---
-path: "/blog/etablissement"
+path: "/blog/2017-2018/bars-restaurants-supermarches-autres"
 date: "2017-09-20"
 title: "Les bars, restaurants, supermarchés et autres"
 meta: "kent, epitech, bars, restaurant, supermarchés, autres"
+year: "2017-2018"
 author: "@PaulRosset"
 ---
 

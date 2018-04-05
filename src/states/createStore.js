@@ -1,16 +1,18 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import { getter } from "./reducers";
-import { createEpicMiddleware } from "redux-observable";
+import { createEpicMiddleware, combineEpics } from "redux-observable";
 import { getterEpics } from "./epics";
 import { composeWithDevTools } from "redux-devtools-extension";
 
-// const epicMiddleware = createEpicMiddleware({
-//   getterEpics,
-// });
+const epics = combineEpics({
+  getterEpics,
+});
 
-const groupedReducers = combineReducers({
+const reducers = combineReducers({
   getter,
 });
 
+const epicMiddleware = createEpicMiddleware(epics);
+
 export default () =>
-  createStore(groupedReducers, composeWithDevTools(applyMiddleware()));
+  createStore(reducers, composeWithDevTools(applyMiddleware(epicMiddleware)));
