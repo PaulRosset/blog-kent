@@ -3,10 +3,9 @@ import { getter } from "./reducers";
 import { createEpicMiddleware, combineEpics } from "redux-observable";
 import { getterEpics } from "./epics";
 import { composeWithDevTools } from "redux-devtools-extension";
+import "rxjs";
 
-const epics = combineEpics({
-  getterEpics,
-});
+const epics = combineEpics(getterEpics);
 
 const reducers = combineReducers({
   getter,

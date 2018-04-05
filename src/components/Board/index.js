@@ -45,14 +45,14 @@ const Icon = styled(FontAwesome)`
 `;
 
 export function Post(props) {
-  const { title, path, date, meta, author } = props.node.frontmatter;
+  const { title, path, date, author, year } = props.node.frontmatter;
   const { excerpt } = props.node;
   return (
     <ContainerPost>
       <ContainerData>
         <Title>{title}</Title>
         <Meta>{date}</Meta>
-        <Meta>{meta}</Meta>
+        <Meta>{year}</Meta>
         <Meta>{author}</Meta>
         <p>{excerpt}</p>
         <Tooltip title="Voir l'article!" position="bottom">

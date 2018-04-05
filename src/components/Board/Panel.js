@@ -74,8 +74,12 @@ class Panel extends PureComponent {
     return (
       <ContainerPanel>
         <Rehover delay={150}>
-          <Icon source icon={faAlignCenter} onClick={this.handleOpenMenu} />
-          <ContainerTools destination>
+          <Icon
+            source="true"
+            icon={faAlignCenter}
+            onClick={this.handleOpenMenu}
+          />
+          <ContainerTools destination="true">
             <Tool
               icon={faSort}
               color="#21ba45"
@@ -91,4 +95,6 @@ class Panel extends PureComponent {
   }
 }
 
-export default connect(_, {})(Panel);
+export default Panel;
+
+//export default connect(null, {})(Panel);

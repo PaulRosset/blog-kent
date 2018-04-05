@@ -56,4 +56,6 @@ export const query = graphql`
   }
 `;
 
-export default connect(state => ({ ...state.getter }), { getBlogPosts })(Board);
+export default connect(state => ({ ...state.getter }), { getBlogPosts$ })(
+  Board
+);
