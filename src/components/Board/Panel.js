@@ -47,10 +47,11 @@ const Tool = styled(FontAwesome)`
   padding: 0.5em;
   margin: 5px;
   transition: 0.4s;
+  cursor: pointer;
 
   &:hover {
     transition: 0.4s;
-    background: ${props => props.hoverColor};
+    background: ${props => props.hovercolor};
     color: white;
   }
 `;
@@ -84,10 +85,10 @@ class Panel extends PureComponent {
               icon={faSort}
               color="#21ba45"
               style={{ padding: "0.5em 0.7em" }}
-              hoverColor="#000"
+              hovercolor="#000"
             />
-            <Tool icon={faObjectGroup} color="#2185d0" hoverColor="#000" />
-            <Tool icon={faUser} color="#fbbd08" hoverColor="#000" />
+            <Tool icon={faObjectGroup} color="#2185d0" hovercolor="#000" />
+            <Tool icon={faUser} color="#fbbd08" hovercolor="#000" />
           </ContainerTools>
         </Rehover>
       </ContainerPanel>

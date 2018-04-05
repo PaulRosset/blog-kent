@@ -14,6 +14,7 @@ const BoardContainer = styled.div`
   padding: 1em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 25px 0;
 `;
 

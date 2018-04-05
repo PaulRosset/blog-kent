@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/markdowns`,
+        path: `${__dirname}/src/content`,
         name: "markdown-pages",
       },
     },
@@ -30,4 +30,5 @@ module.exports = {
     "gatsby-plugin-react-next",
     "gatsby-transformer-sharp",
   ],
+  mapping: {},
 };

@@ -99,11 +99,12 @@ export default function Template({ data }) {
           {frontmatter.title}
         </Title>
         <Meta>Publié le {frontmatter.date}</Meta>
+        <Meta>Année {frontmatter.year}</Meta>
         <Body dangerouslySetInnerHTML={{ __html: html }} />
         <ContainerShare>
           <Rehover delay={150}>
-            <Share source icon={faShareAlt} />
-            <ContainerShareButton destination>
+            <Share source="true" icon={faShareAlt} />
+            <ContainerShareButton destination="true">
               <Tooltip title="Partager sur Twitter!" position="bottom">
                 <a
                   href={`https://twitter.com/intent/tweet?hashtags=kent,ukc,epitech&original_referer=${
@@ -140,6 +141,7 @@ export const pageQuery = graphql`
         path
         title
         author
+        year
       }
       excerpt
     }
