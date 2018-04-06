@@ -1,10 +1,11 @@
 import { GETBLOGPOSTS } from "./statesActions";
 
-export const getter = (states = [], actions) => {
+export const getter = (state = [], actions) => {
   switch (actions.type) {
     case GETBLOGPOSTS:
-      return [...states, ...actions.payload];
+      console.log("polo");
+      return [...state, ...actions.payload];
     default:
-      return states;
+      return state;
   }
 };

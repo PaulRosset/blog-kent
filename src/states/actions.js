@@ -1,4 +1,4 @@
-import { GETBLOGPOSTS, GETBLOGPOSTS$ } from "./statesActions";
+import { GETBLOGPOSTS, GETBLOGPOSTS$, SORTBY, SORTBY$ } from "./statesActions";
 
 export const getBlogPosts = posts => ({
   type: GETBLOGPOSTS,
