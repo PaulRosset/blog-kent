@@ -113,11 +113,13 @@ export default function Template({ data }) {
             <ContainerShareButton destination="true">
               <Tooltip title="Partager sur Twitter!" position="bottom">
                 <a
-                  href={`https://twitter.com/intent/tweet?hashtags=Kent,ukc,epitech&original_referer=${
-                    window.location.origin
-                  }/${frontmatter.path}&text=${
+                  href={`https://twitter.com/intent/tweet?hashtags=Kent,ukc,epitech&original_referer=https://epikent.paulrossethings.com/${
+                    frontmatter.path
+                  }&text=${
                     markdownRemark.excerpt
-                  } @UniKent&url=${window.location.origin}${frontmatter.path}`}
+                  } @UniKent&url=https://epikent.paulrossethings.com/${
+                    frontmatter.path
+                  }`}
                 >
                   <ShareButton icon={faTwitter} color="#00aced" />
                 </a>
