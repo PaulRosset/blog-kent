@@ -91,7 +91,7 @@ export default function Template({ data }) {
         />
         <meta
           property="og:url"
-          content={`${window.location.origin}/${frontmatter.path}`}
+          content={`https://epikent.paulrossethings.com/${frontmatter.path}`}
         />
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={markdownRemark.excerpt} />
