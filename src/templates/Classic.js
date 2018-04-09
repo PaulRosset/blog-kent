@@ -2,11 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import FontAwesome from "@fortawesome/react-fontawesome";
-import { faShareAlt, faAngleLeft } from "@fortawesome/fontawesome-free-solid";
+import { faShareAlt } from "@fortawesome/fontawesome-free-solid";
 import { faTwitter, faGithub } from "@fortawesome/fontawesome-free-brands";
 import Rehover from "rehover";
 import { Tooltip } from "react-tippy";
-import Link from "gatsby-link";
 import { Helmet } from "react-helmet";
 import "react-tippy/dist/tippy.css";
 
@@ -66,17 +65,6 @@ const ShareButton = styled(Share)`
   }
 `;
 
-const Back = styled(Share)`
-  position: absolute;
-  padding: 0.4em 0.6em;
-  left: 20px;
-
-  &:hover {
-    color: white;
-    background-color: #ff9500;
-  }
-`;
-
 export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
@@ -97,12 +85,7 @@ export default function Template({ data }) {
         <meta property="og:description" content={markdownRemark.excerpt} />
       </Helmet>
       <div className="blog-post">
-        <Title>
-          <Link to="/board">
-            <Back icon={faAngleLeft} />
-          </Link>{" "}
-          {frontmatter.title}
-        </Title>
+        <Title>{frontmatter.title}</Title>
         <Meta>Publié le {frontmatter.date}</Meta>
         <Meta>Année {frontmatter.year}</Meta>
         <Meta>Msc {frontmatter.diploma}</Meta>

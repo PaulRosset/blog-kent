@@ -1,11 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+import { Helmet } from "react-helmet";
 import Header from "../components/Header";
+import Favicon from "../images/favicon.png";
 import "./index.css";
 
 const TemplateWrapper = ({ children }) => (
   <div>
+    <Helmet>
+      <link rel="icon" type="image/png" href={Favicon} />
+    </Helmet>
     <Header />
     <div
       style={{

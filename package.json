@@ -27,6 +27,7 @@
     "react-helmet": "^5.2.0",
     "react-morph": "^0.3.5",
     "react-redux": "^5.0.7",
+    "react-responsive": "^4.1.0",
     "react-router-dom": "^4.2.2",
     "react-tippy": "^1.2.2",
     "redux": "^3.7.2",

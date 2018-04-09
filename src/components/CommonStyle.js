@@ -23,6 +23,10 @@ export const LinkedReal = styled.a`
   }
 `;
 
+export const LinkedMobile = styled.a`
+  margin: 0 5px;
+`;
+
 export const Home = styled(Link)`
   color: white;
   text-decoration: none;
