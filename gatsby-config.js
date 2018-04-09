@@ -21,7 +21,7 @@ module.exports = {
     //   },
     // },
     "gatsby-transformer-remark",
-    "gatsby-plugin-styled-components"
+    "gatsby-plugin-styled-components",
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
