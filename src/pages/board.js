@@ -25,12 +25,12 @@ class Board extends Component {
   }
 
   render() {
-    const { edges } = this.props.data.allMarkdownRemark;
+    const { managerPanel = [] } = this.props;
     return (
       <Container>
         <Panel />
         <BoardContainer>
-          {edges.map((elem, index) => <Post key={index} node={elem.node} />)}
+          {managerPanel.map((post, index) => <Post key={index} node={post} />)}
         </BoardContainer>
       </Container>
     );
@@ -39,16 +39,17 @@ class Board extends Component {
 
 export const query = graphql`
   query GetAllBlogPost($limit: Int) {
-    allMarkdownRemark(limit: $limit) {
+    allMarkdownRemark(limit: $limit, sort: { fields: [frontmatter___date] }) {
       edges {
         node {
           frontmatter {
             title
             path
-            date(formatString: "DD/MM/YYYY")
+            date(formatString: "MM/DD/YYYY")
             meta
             author
             year
+            diploma
           }
           excerpt
         }
@@ -57,6 +58,6 @@ export const query = graphql`
   }
 `;
 
-export default connect(state => ({ ...state.getter }), { getBlogPosts$ })(
-  Board
-);
+export default connect(state => ({ managerPanel: state.managerPanel }), {
+  getBlogPosts$,
+})(Board);

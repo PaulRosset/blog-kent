@@ -5,6 +5,7 @@ title: "Quelques jours"
 meta: "kent, epitech, firstday, 3days"
 year: "2017-2018"
 author: "@PaulRosset"
+diploma: "Advanced computer science"
 ---
 
 ### Le premier jour !
@@ -31,4 +32,4 @@ Nous sommes allés en ville, **Canterbury** est vraiment cool, c'est petit mais 
 
 La **salle de sport** est aussi vraiment au top, on peut demander à être accompagner pour faire un tour, pour voir les installations.
 
-Je vais à la salle de sport le matin, il faut trouver la motivation mais au moins il y a moins de monde.
+Je vais à la salle de sport le matin, il faut trouver la motivation mais au moins il y a moins de monde car durant l'autre partie de la journée, c'est vraiment plein.

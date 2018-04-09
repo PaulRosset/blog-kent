@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Linked, LinkedReal } from "./../CommonStyle";
+import { Linked, LinkedReal, Home } from "./../CommonStyle";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
@@ -11,7 +11,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/fontawesome-free-brands";
-import { faCodeBranch } from "@fortawesome/fontawesome-free-solid";
+import { faCodeBranch, faHome } from "@fortawesome/fontawesome-free-solid";
 import Epitech from "./../../images/epitech.jpg";
 import Kent from "./../../images/kent.png";
 
@@ -62,6 +62,9 @@ const Header = () => (
       </ContainerImage>
     </LeftSide>
     <RightSide>
+      <Home to="/">
+        <FontAwesomeIcon icon={faHome} />
+      </Home>
       <Tooltip title="Fork et créer ton premier blog post!" position="bottom">
         <LinkedReal href="https://github.com/PaulRosset/blog-kent">
           <FontAwesomeIcon icon={faCodeBranch} />

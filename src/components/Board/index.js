@@ -37,6 +37,9 @@ const Icon = styled(FontAwesome)`
   color: #333535;
   transition: 0.4s;
   font-size: 13px;
+  box-shadow: 0 0 0 0.1em rgba(0, 0, 0, 0.1) inset;
+  padding: 10px;
+  border-radius: 5px;
 
   &:hover {
     color: #ff9500;
@@ -45,13 +48,13 @@ const Icon = styled(FontAwesome)`
 `;
 
 export function Post(props) {
-  const { title, path, date, author, year } = props.node.frontmatter;
+  const { title, path, author, year, diploma } = props.node.frontmatter;
   const { excerpt } = props.node;
   return (
     <ContainerPost>
       <ContainerData>
         <Title>{title}</Title>
-        <Meta>{date}</Meta>
+        <Meta>{diploma}</Meta>
         <Meta>{year}</Meta>
         <Meta>{author}</Meta>
         <p>{excerpt}</p>

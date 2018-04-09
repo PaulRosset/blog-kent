@@ -4,12 +4,14 @@ import FontAwesome from "@fortawesome/react-fontawesome";
 import Rehover from "rehover";
 import {
   faAlignCenter,
-  faSort,
+  faSortNumericUp,
+  faSortNumericDown,
   faObjectGroup,
   faUser,
 } from "@fortawesome/fontawesome-free-solid";
 import { connect } from "react-redux";
-import { sortBy } from "./../../states/actions";
+import { sortBy$ } from "./../../states/actions";
+import { Tooltip } from "react-tippy";
 
 const ContainerPanel = styled.div`
   margin: 25px 0;
@@ -47,7 +49,7 @@ const Tool = styled(FontAwesome)`
   padding: 0.5em;
   margin: 5px;
   transition: 0.4s;
-  cursor: pointer;
+  cursor: ${props => props.cursor};
 
   &:hover {
     transition: 0.4s;
@@ -60,14 +62,17 @@ class Panel extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      isOpenMenu: false,
+      sort: true,
     };
   }
 
-  handleOpenMenu = () => {
-    this.setState(prevState => ({
-      isOpenMenu: !prevState.isOpenMenu,
-    }));
+  sortBy = () => {
+    this.setState(
+      prevState => ({
+        sort: !prevState.sort,
+      }),
+      () => this.props.sortBy$(this.state.sort ? "ASC" : "DESC")
+    );
   };
 
   render() {
@@ -75,20 +80,36 @@ class Panel extends PureComponent {
     return (
       <ContainerPanel>
         <Rehover delay={150}>
-          <Icon
-            source="true"
-            icon={faAlignCenter}
-            onClick={this.handleOpenMenu}
-          />
+          <Icon source="true" icon={faAlignCenter} />
           <ContainerTools destination="true">
-            <Tool
-              icon={faSort}
-              color="#21ba45"
-              style={{ padding: "0.5em 0.7em" }}
-              hovercolor="#000"
-            />
-            <Tool icon={faObjectGroup} color="#2185d0" hovercolor="#000" />
-            <Tool icon={faUser} color="#fbbd08" hovercolor="#000" />
+            <Tooltip
+              title={`Trié par Date ${this.state.sort ? "DESC" : "ASC"}`}
+            >
+              <Tool
+                icon={this.state.sort ? faSortNumericDown : faSortNumericUp}
+                color="#21ba45"
+                style={{ padding: "0.5em 0.7em" }}
+                hovercolor="#000"
+                onClick={this.sortBy}
+                cursor="pointer"
+              />
+            </Tooltip>
+            <Tooltip title="Not ready yet">
+              <Tool
+                icon={faObjectGroup}
+                color="rgba(0, 0, 0, 0.1)"
+                hovercolor="rgba(0, 0, 0, 0.1)"
+                cursor="not-allowed"
+              />
+            </Tooltip>
+            <Tooltip title="Not ready yet">
+              <Tool
+                icon={faUser}
+                color="rgba(0, 0, 0, 0.1)"
+                hovercolor="rgba(0, 0, 0, 0.1)"
+                cursor="not-allowed"
+              />
+            </Tooltip>
           </ContainerTools>
         </Rehover>
       </ContainerPanel>
@@ -96,6 +117,4 @@ class Panel extends PureComponent {
   }
 }
 
-export default Panel;
-
-//export default connect(null, {})(Panel);
+export default connect(null, { sortBy$ })(Panel);

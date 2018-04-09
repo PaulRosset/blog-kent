@@ -1,10 +1,13 @@
-import { GETBLOGPOSTS } from "./statesActions";
+import { GETBLOGPOSTS, SORTBY, SORTBYDIPLOMAS } from "./statesActions";
 
-export const getter = (state = [], actions) => {
+export const managerPanel = (state = [], actions) => {
   switch (actions.type) {
     case GETBLOGPOSTS:
-      console.log("polo");
-      return [...state, ...actions.payload];
+      return [...actions.payload];
+    case SORTBY:
+      return [...actions.payload];
+    case SORTBYDIPLOMAS:
+      return [...actions.payload];
     default:
       return state;
   }

@@ -1,14 +1,14 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
-import { getter } from "./reducers";
+import { managerPanel } from "./reducers";
 import { createEpicMiddleware, combineEpics } from "redux-observable";
-import { getterEpics } from "./epics";
+import { getterEpics, sortEpics, sortDiplomasEpics } from "./epics";
 import { composeWithDevTools } from "redux-devtools-extension";
 import "rxjs";
 
-const epics = combineEpics(getterEpics);
+const epics = combineEpics(getterEpics, sortEpics);
 
 const reducers = combineReducers({
-  getter,
+  managerPanel,
 });
 
 const epicMiddleware = createEpicMiddleware(epics);

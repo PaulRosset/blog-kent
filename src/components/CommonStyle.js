@@ -22,3 +22,14 @@ export const LinkedReal = styled.a`
     position: relative;
   }
 `;
+
+export const Home = styled(Link)`
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+
+  &:hover {
+    transition: 0.3s;
+    color: #ff9500;
+  }
+`;

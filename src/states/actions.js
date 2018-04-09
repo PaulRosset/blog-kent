@@ -1,4 +1,10 @@
-import { GETBLOGPOSTS, GETBLOGPOSTS$, SORTBY, SORTBY$ } from "./statesActions";
+import {
+  GETBLOGPOSTS,
+  GETBLOGPOSTS$,
+  SORTBY,
+  SORTBY$,
+  SORTBYDIPLOMAS,
+} from "./statesActions";
 
 export const getBlogPosts = posts => ({
   type: GETBLOGPOSTS,
@@ -10,12 +16,22 @@ export const getBlogPosts$ = posts => ({
   payload: posts,
 });
 
-export const sortBy = param => ({
+export const sortBy = sortedPosts => ({
   type: SORTBY,
-  payload: posts,
+  payload: sortedPosts,
 });
 
-export const sortBy$ = param => ({
+export const sortBy$ = sort => ({
   type: SORTBY$,
-  payload: posts,
+  sort,
+});
+
+export const sortByDiploma = sortedPosts => ({
+  type: SORTBYDIPLOMAS,
+  payload: sortedPosts,
+});
+
+export const sortByDiploma$ = diplomaSort => ({
+  type: SORTBYDIPLOMAS,
+  diplomaSort,
 });

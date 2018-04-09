@@ -37,6 +37,12 @@ const Access = styled(Link)`
   }
 `;
 
+const ExtLink = styled.a`
+  text-decoration: none;
+  line-weight: bold;
+  color: #ff9500;
+`;
+
 const IndexPage = () => (
   <Container>
     <h1>Hi people!</h1>
@@ -61,7 +67,16 @@ const IndexPage = () => (
       <div style={{ marginTop: 15 }}>
         Le blog se veut collaboratif et peut tout à fait être améliorer mais
         également être utilisé pour les étudiants des prochaines années.<br />
-        Pour participer ? Soumettez une pull request!
+        Pour participer ?{" "}
+        <ExtLink href="https://github.com/PaulRosset/blog-kent">
+          Soumettez une pull request!
+        </ExtLink>
+      </div>
+      <div style={{ marginTop: 15 }}>
+        Les posts ne répondent pas à une de tes questions ? Créer une issues sur{" "}
+        <ExtLink href="https://github.com/PaulRosset/blog-kent/issues">
+          github!
+        </ExtLink>
       </div>
     </Intro>
     <Access to="/board">Voir les articles!</Access>

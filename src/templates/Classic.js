@@ -12,6 +12,7 @@ import "react-tippy/dist/tippy.css";
 const ContainerBlog = styled.div`
   max-width: 980px;
   margin: auto;
+  margin-bottom: 30px;
 `;
 
 const Title = styled.h2`
@@ -83,7 +84,10 @@ export default function Template({ data }) {
       <Helmet>
         <meta name="description" content={frontmatter.title} />
         <meta name="author" content={frontmatter.author} />
-        <meta name="keywords" content={frontmatter.meta} />
+        <meta
+          name="keywords"
+          content={`${frontmatter.meta} ${frontmatter.diploma}`}
+        />
         <meta
           property="og:url"
           content={`${window.location.origin}/${frontmatter.path}`}
@@ -100,6 +104,7 @@ export default function Template({ data }) {
         </Title>
         <Meta>Publié le {frontmatter.date}</Meta>
         <Meta>Année {frontmatter.year}</Meta>
+        <Meta>Msc {frontmatter.diploma}</Meta>
         <Body dangerouslySetInnerHTML={{ __html: html }} />
         <ContainerShare>
           <Rehover delay={150}>
@@ -107,11 +112,11 @@ export default function Template({ data }) {
             <ContainerShareButton destination="true">
               <Tooltip title="Partager sur Twitter!" position="bottom">
                 <a
-                  href={`https://twitter.com/intent/tweet?hashtags=kent,ukc,epitech&original_referer=${
+                  href={`https://twitter.com/intent/tweet?hashtags=Kent,ukc,epitech&original_referer=${
                     window.location.origin
-                  }/${frontmatter.path}&text=${markdownRemark.excerpt}&url=${
-                    window.location.origin
-                  }${frontmatter.path}`}
+                  }/${frontmatter.path}&text=${
+                    markdownRemark.excerpt
+                  } @UniKent&url=${window.location.origin}${frontmatter.path}`}
                 >
                   <ShareButton icon={faTwitter} color="#00aced" />
                 </a>
@@ -142,6 +147,7 @@ export const pageQuery = graphql`
         title
         author
         year
+        diploma
       }
       excerpt
     }

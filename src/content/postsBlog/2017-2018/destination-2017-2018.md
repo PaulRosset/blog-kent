@@ -5,6 +5,7 @@ title: "Nous irons à Kent University !"
 meta: "kent, epitech, depart"
 year: "2017-2018"
 author: "@PaulRosset"
+diploma: "Advanced computer science"
 ---
 
 ### Voilà, nous y sommes...
@@ -17,6 +18,6 @@ Premier conseil, le choix des voeux est très important ! En effet, dans notre p
 
 Vous aurez certainement dans l'idée que le dernier voeux est peu probable, mais nous ne sommes jamais sûr de rien car plusieurs critères entrent en compte. De plus, ne jamais sous-estimer les autres critères que le GPA.
 
-Concernant Kent, une subtilité est à retenir : les places sont distribuées en fonction des diplômes et certains diplômes sont plus demandés que d'autres, les places sont ainsi vite prises.
+Concernant Kent, une subtilité est à retenir : les places sont distribuées en fonction des diplômes et certains diplômes sont plus demandés que d'autres, les places sont ainsi vite prises pour certains diplômes notamment le diplôme **Cyber Security**.
 
 **_Kent University, here we come !_**
