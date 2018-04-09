@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: "eslint:recommended",
+  extends: ["eslint:recommended", "plugin:react/recommended"],
   parserOptions: {
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
@@ -13,7 +13,9 @@ module.exports = {
   },
   plugins: ["react", "prettier"],
   rules: {
+    "import/no-undefined": "off",
     "prettier/prettier": "error",
+    "react/no-unescaped-entities": ["error", { forbid: [">", "}"] }],
   },
   parser: "babel-eslint",
 };

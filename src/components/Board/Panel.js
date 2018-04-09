@@ -1,4 +1,5 @@
-import React, { PureComponent, Fragment } from "react";
+import React, { PureComponent } from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 import FontAwesome from "@fortawesome/react-fontawesome";
 import Rehover from "rehover";
@@ -59,6 +60,10 @@ const Tool = styled(FontAwesome)`
 `;
 
 class Panel extends PureComponent {
+  static propTypes = {
+    sortBy$: PropTypes.func,
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -76,7 +81,6 @@ class Panel extends PureComponent {
   };
 
   render() {
-    const { isOpenMenu } = this.state;
     return (
       <ContainerPanel>
         <Rehover delay={150}>

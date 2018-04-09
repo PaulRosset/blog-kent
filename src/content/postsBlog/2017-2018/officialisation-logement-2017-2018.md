@@ -8,7 +8,7 @@ author: "@PaulRosset"
 diploma: "Advanced computer science"
 ---
 
-### Résultats finaux
+### Résultats finaux.
 
 Nous venons de recevoir les résultats finaux de la part des relations internationales d'Epitech, qui officialise donc le fait que nous allons à Kent, cependant cette nouvelle est également arriver avec d'autres, notamment le faite que nous devons suivre un module d'anglais obligatoire à part si nous validons 810 au Tepitech avant la fin de l'année, afin d'être dispenser de tout cours supplémentaire.
 

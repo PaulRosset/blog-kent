@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Linked, LinkedReal, Home } from "./../CommonStyle";
-import Link from "gatsby-link";
-import Helmet from "react-helmet";
+import { LinkedReal, Home } from "./../CommonStyle";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import { Tooltip } from "react-tippy";
 import {

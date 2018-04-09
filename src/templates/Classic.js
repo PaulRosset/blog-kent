@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 import FontAwesome from "@fortawesome/react-fontawesome";
 import { faShareAlt, faAngleLeft } from "@fortawesome/fontawesome-free-solid";
@@ -137,6 +138,7 @@ export default function Template({ data }) {
   );
 }
 
+/* eslint-disable-next-line */
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
@@ -153,3 +155,20 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+Template.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      excerpt: PropTypes.string,
+      frontmatter: PropTypes.shape({
+        date: PropTypes.string,
+        path: PropTypes.string,
+        title: PropTypes.string,
+        author: PropTypes.string,
+        year: PropTypes.string,
+        diploma: PropTypes.string,
+      }),
+      html: PropTypes.string,
+    }),
+  }),
+};

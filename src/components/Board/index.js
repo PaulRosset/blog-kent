@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 import Link from "gatsby-link";
 import FontAwesome from "@fortawesome/react-fontawesome";
@@ -67,3 +68,16 @@ export function Post(props) {
     </ContainerPost>
   );
 }
+
+Post.propTypes = {
+  node: PropTypes.shape({
+    frontmatter: PropTypes.shape({
+      title: PropTypes.string,
+      path: PropTypes.string,
+      author: PropTypes.string,
+      year: PropTypes.string,
+      diploma: PropTypes.string,
+    }),
+    excerpt: PropTypes.string,
+  }),
+};

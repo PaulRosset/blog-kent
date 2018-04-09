@@ -1,10 +1,9 @@
-import { map, mapTo, mergeMap, switchMap } from "rxjs/operators";
 import { Observable } from "rxjs/Observable";
-import { ofType } from "redux-observable";
+//import { ofType } from "redux-observable";
 import { GETBLOGPOSTS$, SORTBY$ } from "./statesActions";
 import { getBlogPosts, sortBy } from "./actions";
 
-export const getterEpics = (action$, store) =>
+export const getterEpics = action$ =>
   action$.ofType(GETBLOGPOSTS$).switchMap(action =>
     Observable.of(action.payload).concatMap(payload => {
       return Observable.of(

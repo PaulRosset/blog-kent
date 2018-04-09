@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Link from "gatsby-link";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 import { Post } from "../components/Board/index";
 import Panel from "../components/Board/Panel";
@@ -19,6 +19,36 @@ const BoardContainer = styled.div`
 `;
 
 class Board extends Component {
+  static propTypes = {
+    getBlogPosts$: PropTypes.func,
+    data: PropTypes.shape({
+      allMarkdownRemark: PropTypes.shape({
+        edges: PropTypes.shape({
+          node: PropTypes.shape({
+            frontmatter: PropTypes.shape({
+              title: PropTypes.string,
+              path: PropTypes.string,
+              author: PropTypes.string,
+              year: PropTypes.string,
+              diploma: PropTypes.string,
+            }),
+            excerpt: PropTypes.string,
+          }),
+        }),
+      }),
+    }),
+    managerPanel: PropTypes.shape({
+      frontmatter: PropTypes.shape({
+        title: PropTypes.string,
+        path: PropTypes.string,
+        author: PropTypes.string,
+        year: PropTypes.string,
+        diploma: PropTypes.string,
+      }),
+      excerpt: PropTypes.string,
+    }),
+  };
+
   constructor(props) {
     super(props);
     this.props.getBlogPosts$(this.props.data.allMarkdownRemark.edges);
@@ -37,6 +67,7 @@ class Board extends Component {
   }
 }
 
+/* eslint-disable-next-line */
 export const query = graphql`
   query GetAllBlogPost($limit: Int) {
     allMarkdownRemark(limit: $limit, sort: { fields: [frontmatter___date] }) {
