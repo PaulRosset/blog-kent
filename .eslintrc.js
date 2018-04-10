@@ -13,7 +13,6 @@ module.exports = {
   },
   plugins: ["react", "prettier"],
   rules: {
-    "import/no-undefined": "off",
     "prettier/prettier": "error",
     "react/no-unescaped-entities": ["error", { forbid: [">", "}"] }],
   },
