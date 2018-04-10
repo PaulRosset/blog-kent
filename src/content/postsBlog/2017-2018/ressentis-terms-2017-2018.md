@@ -1,6 +1,6 @@
 ---
 path: "/blog/2017-2018/ressentis-2terms"
-date: "2017-04-10"
+date: "2018-04-10"
 title: "Ressentis après 2 terms entier"
 meta: "kent, epitech, 2terms, 6mois"
 year: "2017-2018"
