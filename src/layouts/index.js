@@ -8,6 +8,11 @@ import "./index.css";
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
+      <title>Blog Kent University - Epitech 🤘</title>
+      <meta
+        name="description"
+        content="Blog Kent University (French). Made by student for student."
+      />
       <link rel="icon" type="image/png" href={Favicon} />
     </Helmet>
     <Header />

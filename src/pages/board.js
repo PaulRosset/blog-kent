@@ -6,8 +6,9 @@ import Panel from "../components/Board/Panel";
 import { connect } from "react-redux";
 import { getBlogPosts$ } from "../states/actions";
 
-const Container = styled.div`
+const ContainerGlobalBoard = styled.div`
   text-align: center;
+  width: 100%;
 `;
 
 const BoardContainer = styled.div`
@@ -57,12 +58,12 @@ class Board extends Component {
   render() {
     const { managerPanel = [] } = this.props;
     return (
-      <Container>
+      <ContainerGlobalBoard>
         <Panel />
         <BoardContainer>
           {managerPanel.map((post, index) => <Post key={index} node={post} />)}
         </BoardContainer>
-      </Container>
+      </ContainerGlobalBoard>
     );
   }
 }
