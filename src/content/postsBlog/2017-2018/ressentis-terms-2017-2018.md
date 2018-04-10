@@ -16,6 +16,9 @@ Je peux vous dire que c'est vraiment très cool l'université et la ville de Can
 
 En ce qui concerne l'université, on a vraiment tissés des liens amicales avec certains étudiants et ainsi on s'est créer un cercle d'amis vraiment sympas avec qui on rigole énormément, cette année est de loin une mes meilleurs années passée à l'école.
 
+De plus, après être allé dans plusieurs autres collèges dont Darwin, je peux vous dire que le Woolf est dix fois mieux, c'est aussi plus chère mais il y a une réel différence. Le woolf à une cuisine assez grande par rapport aux autres college avec un petit canapé.  
+Je pense qu'il y a seulement Turing qui est mieux que le Woolf mais c'est encore plus chère.
+
 En ville, on a nos petites habitudes, on va souvent dans les memes bars et restaurant qu'on aime après avoir fait presque le tour de tout. Le week-end est très animé en ville.
 
 On voit vraiment que la Ville marche avec l'université, car lorsque les terms sont finis tout ce vide, de ce côté la, c'est un peu déprimant, c'est pour cela qu'il faut vraiment profiter aussi pendant les terms, pendant que la population du campus est la plus forte.  

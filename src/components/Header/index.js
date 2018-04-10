@@ -15,8 +15,8 @@ import {
   faHome,
   faBars,
 } from "@fortawesome/fontawesome-free-solid";
-import Epitech from "./../../images/epitech.jpg";
-import Kent from "./../../images/kent.png";
+import Epitech from "./../../images/epitech-fs8.png";
+import Kent from "./../../images/kent-fs8.png";
 
 const HeaderContainer = styled.div`
   height: 5rem;

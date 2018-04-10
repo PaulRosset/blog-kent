@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import Header from "../components/Header";
-import Favicon from "../images/favicon.png";
+import Favicon from "../images/favicon-fs8.png";
 import "./index.css";
 
 const TemplateWrapper = ({ children }) => (

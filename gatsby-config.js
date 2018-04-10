@@ -37,6 +37,25 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "Blog Kent University - Epitech",
+        short_name: "Blog Kent University - Epitech",
+        start_url: "/",
+        background_color: "#DEDAE1",
+        theme_color: "#333535",
+        display: "minimal-ui",
+        icon: "src/images/favicon-fs8.png",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-nprogress",
+      options: {
+        color: "#333535",
+        showSpinner: true,
+      },
+    },
   ],
   mapping: {},
 };
