@@ -4,7 +4,7 @@
 
 [![Travis CI Build Status](https://travis-ci.org/PaulRosset/blog-kent.svg?branch=master)](https://travis-ci.org/PaulRosset/blog-kent)
 ![](https://img.shields.io/badge/PR-Welcome-brightgreen.svg?longCache=true)
-![](https://img.shields.io/badge/site-online-brightgreen.svg?longCache=true)
+[![Site online](https://img.shields.io/badge/site-online-brightgreen.svg?longCache=true)](https://epikent.paulrossethings.com)
 
 ![](ukc.jpg)
 
