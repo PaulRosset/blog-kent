@@ -16,6 +16,7 @@ import { Tooltip } from "react-tippy";
 
 const ContainerPanel = styled.div`
   margin: 25px 0;
+  text-align: center;
 `;
 
 const Icon = styled(FontAwesome)`

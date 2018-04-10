@@ -12,6 +12,7 @@ const BoardContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin: 25px 0;
+  text-align: center;
 `;
 
 class Board extends Component {
@@ -53,7 +54,7 @@ class Board extends Component {
   render() {
     const { managerPanel = [] } = this.props;
     return (
-      <div style={{ textAlign: "center" }}>
+      <div>
         <Panel />
         <BoardContainer>
           {managerPanel.map((post, index) => <Post key={index} node={post} />)}
