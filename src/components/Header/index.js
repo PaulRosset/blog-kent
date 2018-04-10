@@ -39,10 +39,6 @@ const RightSide = styled.div`
   margin-right: 25px;
 `;
 
-const Image = styled.img`
-  height: ${props => props.size}rem;
-`;
-
 const ContainerImage = styled.div`
   background-color: white;
   border-radius: 5px;
@@ -83,10 +79,10 @@ class Header extends React.Component {
         <LeftSide>
           <ContainerImage>
             <a href="http://www.epitech.eu/" style={{ alignSelf: "center" }}>
-              <Image size={2} src={Epitech} />
+              <img style={{ height: "2rem" }} src={Epitech} />
             </a>
             <a href="https://www.kent.ac.uk/">
-              <Image size={3} src={Kent} />
+              <img style={{ height: "3rem" }} src={Kent} />
             </a>
           </ContainerImage>
         </LeftSide>
