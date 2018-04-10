@@ -22,6 +22,8 @@ Les chambres du **Woolf** sont fidèles à leur photo, nous avons 6 chambres par
 
 Le jour même de notre arrivé, nous sommes allés à **SaintBury's** qui est un supermarché, pour acheter le minimum.
 
+En ce qui concerne les flatmates, c'est 3 filles et 3 garçon pour les block de 6 personnes, pour notre part nous étions avec un anglais, une luxembourgeoise, une chinoise, une espagnole et enfin deux epitech.
+
 ### Ressentis après 3 jours plein
 
 Le premier ressentis est vraiment très bon. C'est super, la vraie vie d'étudiant d'université, chose que l'on connait moins à **Epitech**. C'est aussi vraiment cool de rencontrer des gens d'horizon différents, on apprend vraiment beaucoup de choses grâce à eux.

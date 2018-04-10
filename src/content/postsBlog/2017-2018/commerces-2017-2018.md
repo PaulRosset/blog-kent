@@ -16,13 +16,13 @@ Cet article aura pour but de transmettre mon ressentis sur les différents bars/
 
   * **K-Bar** : Le K-Bar est un bar qui fait également des pizzas pas vraiment bonne. Ils font pas mal de cocktails et de boisson qu'on peut retrouver en France et l'ambiance y est étudiante et la déco est cool. Il se trouve dans le Keynes College. C'est en quelques sorte le premier bar du campus, surtout pendant le premier term nous y sommes allés après nous nous sommes aperçu qu'en ville les bars sont dix foix mieux.
 
-  * **Gulbenkian** : Celui ci se trouve à quelques pas du Woolf college, c'est un restaurant/caffeteria. Nous n'avons jamais testés le restaurant mais plutôt le côté caffeteria (gateaux/café etc...) qui est pas mal.
+  * **Gulbenkian** : Celui-ci se trouve à quelques pas du Woolf college, c'est un restaurant/caffeteria. Nous n'avons jamais testé le restaurant mais plutôt le côté caffeteria (gateaux/café etc...) qui est pas mal.
 
-  * **Hut 8** : C'est un restaurant fast food qui se trouve à Turing College, j'ai pris un burger là-bas, je n'ai pas trop aimer.
+  * **Hut 8** : C'est un restaurant fast food qui se trouve à Turing College, j'ai pris un burger là-bas, je n'ai pas trop aimé.
 
-  * **Origin** : C'est un restaurant/bar qui se trouve dans le Darwin College. Nous n'avons pris uniquement des bières la-bas.
+  * **Origin** : C'est un restaurant/bar qui se trouve dans le Darwin College. Nous avons pris uniquement des bières la-bas.
 
-  > Je trouve tous les établissements sur le campus pas au top, mais je préfère d'avantage les établissement en villes.
+  > Je trouve tous les établissements sur le campus moyen, je préfère d'avantage les établissement en villes.
 
 * Off campus...
 
@@ -30,7 +30,7 @@ Cet article aura pour but de transmettre mon ressentis sur les différents bars/
 
   * **TreeHouse Ingoldsby** : C'est un très grand bar/restaurant qui nous a été recommander par des locaux, où tout est très peu chère avec des **pintes à 3£ et des menus plat+bière à 7.80£**. Ce qui explique qu'il y ait la majeur partie du temps beaucoup de monde. Niveau rapport qualité/prix, c'est correct. Il se trouve à deux pas du **Chapter**.
 
-  * **Cuban/Loft/Foundry** : Ce sont des clubs (Boite de nuit), les trois principaux de Canterbury dans lesquelles nous sommes allés, il y a également le **Chemistry** mais nous n'avons jamais essayer.
+  * **Cuban/Loft/Foundry** : Ce sont des clubs (Boite de nuit), les trois principaux de Canterbury dans lesquelles nous sommes allés, il y a également le **Chemistry** mais nous n'avons jamais essayé.
 
   * **Cherry Tree/Black Griffin** : Ce sont deux Bars que nous recommandons sans modération, avec une ambiance authentique et décalées. Surtout Samedi soir au black griffin, deux DJ envoyent vraiment avec du son qui sort de l'ordinaire.
 
@@ -38,14 +38,14 @@ Cet article aura pour but de transmettre mon ressentis sur les différents bars/
 
   * Autres : Il y en a encore plein de restaurants dans lesquelles nous sommes allées, ce serait dure de les citer et donner notre avis sur chacun d'eux. Sachez également que **Deliveroo** et **Uber eat** sont présent dans Canterbury et livre partout sur le campus. C'est simple mais assez chère.
 
-    * Pour la **nourriture**, on a expérimenter pas mal de supermarché et autres :
+    * Pour la **nourriture**, on a expérimenté pas mal de supermarché et autres :
 
-      * Il y a **Tesco**, il se situe au centre de Canterbury à côté d'un magasin de sport, très près de la Bus station. Le magasin est pas super grand mais il y a pas mal de chose et au niveau des prix c'est correct.
+      * Il y a **Tesco**, il se situe au centre de Canterbury à côté d'un magasin de sport, très près de la Bus station. Le magasin est pas super grand mais il y a pas mal de choses et au niveau des prix c'est correct.
 
       * Il y a le **SaintBury's**, c'est un très grand supermarché, j'y suis aller une seule fois au tout début et je n'ai pas trop aimer et la localisation est assez éloigné.
 
-      * **Good shed**, c'est un petit marché local qui se trouve juste à côté de la gare de Canterbury West, il y a plein de producteur locaux, c'est très sain et bon, pour les fruits et légumes c'est même moins chère que les grandes surfaces, en revanche pour la viande, poisson, charcuteries, fromage c'est pas mal plus chères mais cela se comprend car la qualité est au rendez vous.
+      * **Good shed**, c'est un petit marché local qui se trouve juste à côté de la gare de Canterbury West, il y a plein de producteur locaux, c'est très sain et bon, pour les fruits et légumes c'est même moins chère que les grandes surfaces, en revanche pour la viande, poisson, charcuteries, fromage c'est pas mal plus chères mais cela se comprend car la qualité est au rendez-vous.
 
-      * Il y a **WaitRoses**, qui se trouve près de la bus station à côté du cinéma Odeon en ville. Ce supermarché est vraiment pas mal, c'est propre, on a envie d'y aller. Comme tous les supermarché il y a toutes les gammes de produits mais il tend plus sur la qualité, donc forcément c'est un peu plus chère que les autres. On n'y va une fois par semaine en bus, c'est lequel où on va le plus souvent.
+      * Il y a **WaitRoses**, qui se trouve près de la bus station à côté du cinéma Odeon en ville. Ce supermarché est vraiment pas mal, c'est propre, on a envie d'y aller. Comme tous les supermarché il y a toutes les gammes de produits mais il tend plus sur la qualité, donc forcément c'est un peu plus chère que les autres. On n'y va une fois par semaine en bus, nous allons quasiment qu'à celui-ci.
 
-      * Nous n'avons pas tester les autres supermarché comme **Lidl** ou **Asda**. Cependant, beaucoup d'étudiants au **Woolf** se faisait livrer pas Asda à domicile, cela reste une solution, si vous n'avez pas envie de vous déplacer en bus avec vos courses.
+      * Nous n'avons pas testé les autres supermarché comme **Lidl** ou **Asda**. Cependant, beaucoup d'étudiants au **Woolf** se faisait livrer pas Asda à domicile, cela reste une solution, si vous n'avez pas envie de vous déplacer en bus avec vos courses.
