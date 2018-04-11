@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import Link from "gatsby-link";
 import FontAwesome from "@fortawesome/react-fontawesome";
-import { faShareAlt } from "@fortawesome/fontawesome-free-solid";
+import { faPlus, faArrowCircleLeft } from "@fortawesome/fontawesome-free-solid";
 import { faTwitter, faGithub } from "@fortawesome/fontawesome-free-brands";
 import Rehover from "rehover";
 import { Tooltip } from "react-tippy";
@@ -92,7 +93,7 @@ export default function Template({ data }) {
         <Body dangerouslySetInnerHTML={{ __html: html }} />
         <ContainerShare>
           <Rehover delay={150}>
-            <Share source="true" icon={faShareAlt} />
+            <Share source="true" icon={faPlus} />
             <ContainerShareButton destination="true">
               <Tooltip title="Partager sur Twitter!" position="bottom">
                 <a
@@ -115,6 +116,9 @@ export default function Template({ data }) {
                   <ShareButton icon={faGithub} color="#767676" />
                 </a>
               </Tooltip>
+              <Link to="/board">
+                <ShareButton icon={faArrowCircleLeft} color="#24b47e" />
+              </Link>
             </ContainerShareButton>
           </Rehover>
         </ContainerShare>

@@ -7,7 +7,7 @@ const Container = styled.div`
   margin-bottom: 20px;
 `;
 
-const Intro = styled.p`
+const Intro = styled.div`
   font-size: 13px;
   line-height: 1.5;
   font-weight: bold;

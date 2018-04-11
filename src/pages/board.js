@@ -20,30 +20,34 @@ class Board extends Component {
     getBlogPosts$: PropTypes.func,
     data: PropTypes.shape({
       allMarkdownRemark: PropTypes.shape({
-        edges: PropTypes.shape({
-          node: PropTypes.shape({
-            frontmatter: PropTypes.shape({
-              title: PropTypes.string,
-              path: PropTypes.string,
-              author: PropTypes.string,
-              year: PropTypes.string,
-              diploma: PropTypes.string,
+        edges: PropTypes.arrayOf(
+          PropTypes.shape({
+            node: PropTypes.shape({
+              frontmatter: PropTypes.shape({
+                title: PropTypes.string,
+                path: PropTypes.string,
+                author: PropTypes.string,
+                year: PropTypes.string,
+                diploma: PropTypes.string,
+              }),
+              excerpt: PropTypes.string,
             }),
-            excerpt: PropTypes.string,
-          }),
+          })
+        ),
+      }),
+    }),
+    managerPanel: PropTypes.arrayOf(
+      PropTypes.shape({
+        frontmatter: PropTypes.shape({
+          title: PropTypes.string,
+          path: PropTypes.string,
+          author: PropTypes.string,
+          year: PropTypes.string,
+          diploma: PropTypes.string,
         }),
-      }),
-    }),
-    managerPanel: PropTypes.shape({
-      frontmatter: PropTypes.shape({
-        title: PropTypes.string,
-        path: PropTypes.string,
-        author: PropTypes.string,
-        year: PropTypes.string,
-        diploma: PropTypes.string,
-      }),
-      excerpt: PropTypes.string,
-    }),
+        excerpt: PropTypes.string,
+      })
+    ),
   };
 
   constructor(props) {

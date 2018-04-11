@@ -63,8 +63,36 @@ const MobileIcon = styled(FontAwesomeIcon)`
 `;
 
 class Header extends React.Component {
-  state = {
-    isOpenSocialMenu: false,
+  constructor(props) {
+    super(props);
+    this.state = {
+      isOpenSocialMenu: false,
+    };
+    this.refMenu = null;
+    this.customRef = null;
+  }
+
+  componentDidMount() {
+    addEventListener("click", this.clickMenu);
+    this.customRef = document.getElementsByClassName(
+      "svg-inline--fa fa-bars fa-w-14"
+    );
+  }
+
+  clickMenu = e => {
+    if (
+      this.state.isOpenSocialMenu &&
+      e.target !== this.refMenu &&
+      e.target !== (this.customRef[0] || this.customRef[0].firstChild)
+    ) {
+      this.setState({
+        isOpenSocialMenu: false,
+      });
+    }
+  };
+
+  setRefMenu = element => {
+    this.refMenu = element;
   };
 
   OpenSocialMenu = () => {
@@ -117,7 +145,7 @@ class Header extends React.Component {
           <RightSide>
             <FontAwesomeIcon icon={faBars} onClick={this.OpenSocialMenu} />
             {this.state.isOpenSocialMenu && (
-              <MobileMenu>
+              <MobileMenu innerRef={this.setRefMenu}>
                 <Home to="/">
                   <MobileIcon icon={faHome} />
                 </Home>
@@ -147,6 +175,10 @@ class Header extends React.Component {
         </MediaQuery>
       </HeaderContainer>
     );
+  }
+
+  componentWillUnmount() {
+    removeEventListener("click", this.clickMenu);
   }
 }
 
