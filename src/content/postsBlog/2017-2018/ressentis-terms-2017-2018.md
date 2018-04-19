@@ -21,6 +21,9 @@ Je pense qu'il y a seulement Turing qui est mieux que le Woolf mais c'est encore
 
 En ville, on a nos petites habitudes, on va souvent dans les memes bars et restaurant qu'on aime après avoir fait presque le tour de tout. Le week-end est très animé en ville.
 
+Au niveau de la météo, il faut pas s'attendre à être en Californie ou dans le Sud de la France, c'est très pluvieux, mais c'est de la pluie fine, très peu souvent de grosse pluie. Après il fait plus pas beau que beau.
+
 On voit vraiment que la Ville marche avec l'université, car lorsque les terms sont finis tout ce vide, de ce côté la, c'est un peu déprimant, c'est pour cela qu'il faut vraiment profiter aussi pendant les terms, pendant que la population du campus est la plus forte.  
-J'ai un petit apprioris de comment va se passer l'été à Canterbury car si on n'y réfléchis bien, rien nous oblige à rester à Canterbury pour travailler le project research et puis ceux qui n'ont pas le project research n'ont aucune raison de rester à Canterbury alors qu'il pourrait profiter de vacances au soleil.  
+J'ai un petit apprioris de comment va se passer l'été à Canterbury car si on n'y réfléchis bien, rien nous oblige à rester à Canterbury pour travailler le project research et puis ceux qui n'ont pas le project research n'ont aucune raison de rester à Canterbury alors qu'il pourrait profiter de vacances au soleil.
+
 Mais pas de soucis, je vous tiendrais au courant de comment se passe l'été à Canterbury pendant le project research (heureusement que c'est année de coupe du monde 😆).
