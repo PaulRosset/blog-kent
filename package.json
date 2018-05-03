@@ -48,14 +48,18 @@
     "french",
     "epitech"
   ],
+  "farch": {
+    "src/content/postsBlog/2017-2018": "(^[a-z]*-[0-9]{4}-[0-9]{4}.md)"
+  },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "prebuild": "rm -rf .cache public/ && gatsby build && ./node_modules/.bin/serve public/",
-    "develop": "gatsby develop -H $IP",
+    "develop": "gatsby develop -H 192.168.122.91",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "yarn lint",
-    "lint": "./node_modules/.bin/eslint src/"
+    "test": "yarn lint && yarn lint-filenames",
+    "lint": "./node_modules/.bin/eslint src/",
+    "lint-filenames": "farch"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
@@ -63,6 +67,7 @@
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
     "jest": "^22.4.3",
+    "linter-farch-cli": "^1.1.5",
     "prettier": "^1.11.1",
     "serve": "^6.5.4"
   }
