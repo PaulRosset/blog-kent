@@ -1,7 +1,7 @@
 ---
 path: "/blog/2017-2018/summer-activity"
 date: "2018-06-04"
-title: "Les examens de fin d'année"
+title: "Extra-activitées de l'été"
 meta: "kent, epitech, exams"
 year: "2017-2018"
 author: "@PaulRosset"
