@@ -11,8 +11,21 @@ const ContainerPost = styled.div`
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  max-width: 8em;
+  max-width: 9em;
   margin: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  text-decoration: none;
+
+  &:hover {
+    transform: scale(1.07);
+    transition: 0.4s;
+
+    .fa-play {
+      color: #ff9500;
+      transition: 0.4s;
+    }
+  }
 `;
 
 const ContainerData = styled.div`
@@ -41,11 +54,11 @@ const Icon = styled(FontAwesome)`
   box-shadow: 0 0 0 0.1em rgba(0, 0, 0, 0.1) inset;
   padding: 10px;
   border-radius: 5px;
+`;
 
-  &:hover {
-    color: #ff9500;
-    transition: 0.4s;
-  }
+const WrapperLink = styled(Link)`
+  text-decoration: none;
+  color: #333535;
 `;
 
 export function Post(props) {
@@ -53,18 +66,18 @@ export function Post(props) {
   const { excerpt } = props.node;
   return (
     <ContainerPost>
-      <ContainerData>
-        <Title>{title}</Title>
-        <Meta>{diploma}</Meta>
-        <Meta>{year}</Meta>
-        <Meta>{author}</Meta>
-        <p>{excerpt}</p>
-        <Tooltip title="Voir l'article!" position="bottom">
-          <Link to={path}>
+      <Tooltip title="Voir l'article!">
+        <WrapperLink to={path}>
+          <ContainerData>
+            <Title>{title}</Title>
+            <Meta>{diploma}</Meta>
+            <Meta>{year}</Meta>
+            <Meta>{author}</Meta>
+            <p>{excerpt}</p>
             <Icon icon={faPlay} />
-          </Link>
-        </Tooltip>
-      </ContainerData>
+          </ContainerData>
+        </WrapperLink>
+      </Tooltip>
     </ContainerPost>
   );
 }

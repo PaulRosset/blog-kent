@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
+import IntroImg from "../images/logo-uni.png";
 
 const Container = styled.div`
   text-align: center;
@@ -44,6 +45,14 @@ const ExtLink = styled.a`
   color: #ff9500;
 `;
 
+const ContainerImagePresentation = styled.div`
+  margin-top: 50px;
+`;
+
+const Img = styled.img`
+  height: 13rem;
+`;
+
 const IndexPage = () => (
   <Container>
     <h1>Hi people!</h1>
@@ -81,6 +90,9 @@ const IndexPage = () => (
       </div>
     </Intro>
     <Access to="/board">Voir les articles!</Access>
+    <ContainerImagePresentation>
+      <Img src={IntroImg} alt="intro-university" />
+    </ContainerImagePresentation>
   </Container>
 );
 
