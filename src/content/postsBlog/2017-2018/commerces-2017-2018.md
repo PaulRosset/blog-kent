@@ -10,42 +10,42 @@ diploma: "Advanced computer science"
 
 ### Les sorties...
 
-Cet article aura pour but de transmettre mon ressentis sur les différents bars/restaurant du **campus** et de la ville de **Canterbury** dans lesquelles nous sommes allées.
+Cet article aura pour but de transmettre mon ressenti sur les différents bars/restaurants du **campus** et de la ville de **Canterbury** dans lesquelles nous sommes allés.
 
 * On Campus...
 
-  * **K-Bar** : Le K-Bar est un bar qui fait également des pizzas pas vraiment bonne. Ils font pas mal de cocktails et de boisson qu'on peut retrouver en France et l'ambiance y est étudiante et la déco est cool. Il se trouve dans le Keynes College. C'est en quelques sorte le premier bar du campus, surtout pendant le premier term nous y sommes allés après nous nous sommes aperçu qu'en ville les bars sont dix foix mieux.
+  * **K-Bar** : Le K-Bar est un bar qui propose également des pizzas de moyenne qualité.Beaucoup de cocktails et de boissons qu'on retrouve en France.L'ambiance y est étudiante et la déco est cool. Il se trouve dans le Keynes College. Il est en quelque sorte le premier bar du campus,pendant le premier term nous y sommes allés de façon régulière, puis nous nous sommes aperçus qu'en ville les bars sont plus attrayants.
 
-  * **Gulbenkian** : Celui-ci se trouve à quelques pas du Woolf college, c'est un restaurant/caffeteria. Nous n'avons jamais testé le restaurant mais plutôt le côté caffeteria (gateaux/café etc...) qui est pas mal.
+  * **Gulbenkian** : Celui-ci se trouve à quelques pas du Woolf college, c'est un restaurant/caffeteria. Nous n'avons jamais testé le restaurant mais plutôt le côté caffeteria (gateaux/café etc...) qui est sympa. 
 
-  * **Hut 8** : C'est un restaurant fast food qui se trouve à Turing College, j'ai pris un burger là-bas, je n'ai pas trop aimé.
+  * **Hut 8** : Restaurant fast- food qui se trouve à Turing College, je ne conseille pas les burgers ;) 
 
-  * **Origin** : C'est un restaurant/bar qui se trouve dans le Darwin College. Nous avons pris uniquement des bières la-bas.
+  * **Origin**: Restaurant/bar qui se trouve dans le Darwin College. Nous y avons pris uniquement bu des bières.
 
-  > Je trouve tous les établissements sur le campus moyen, je préfère d'avantage les établissement en villes.
+  > Les établissements sur le campus sont à déconseiller, préférez d'avantage les établissements en villes.
 
 * Off campus...
 
-  * **Chapter** : Le chapter est un restaurant en ville moderne, ils font de bonnes pizza.
+  * **Chapter** :Restaurant en ville moderne, les pizzas sont bonnes. 
 
-  * **TreeHouse Ingoldsby** : C'est un très grand bar/restaurant qui nous a été recommander par des locaux, où tout est très peu chère avec des **pintes à 3£ et des menus plat+bière à 7.80£**. Ce qui explique qu'il y ait la majeur partie du temps beaucoup de monde. Niveau rapport qualité/prix, c'est correct. Il se trouve à deux pas du **Chapter**.
+  * **TreeHouse Ingoldsby** :Très grand bar/restaurant qui nous a été recommandé par des locaux, où les prix sont très abordables avec des **pintes à 3£ et des menus plat+bière à 7.80£**. Ce qui explique le remplissage très récurrent de cet établissement.Le rapport qualité/prix est bon. Il se trouve à deux pas du **Chapter**.
 
-  * **Cuban/Loft/Foundry** : Ce sont des clubs (Boite de nuit), les trois principaux de Canterbury dans lesquelles nous sommes allés, il y a également le **Chemistry** mais nous n'avons jamais essayé.
+  * **Cuban/Loft/Foundry** :Clubs (Boite de nuit), les trois principaux de Canterbury dans lesquelles nous sommes allés, il y a également le **Chemistry** mais nous n'avons jamais testé.
 
-  * **Cherry Tree/Black Griffin** : Ce sont deux Bars que nous recommandons sans modération, avec une ambiance authentique et décalées. Surtout Samedi soir au black griffin, deux DJ envoyent vraiment avec du son qui sort de l'ordinaire.
+  * **Cherry Tree/Black Griffin** : Ce sont deux Bars que nous recommandons sans modération, avec une ambiance authentique et décalée. Surtout le Samedi soir au black griffin, deux DJ envoyent vraiment avec du son qui sort de l'ordinaire.
 
-  * **Cream** : Vraiment cool pour y aller entre amis en fin d'après midi pour un gouter, ils font de copieux dessert (Gauffre, Glace, cookies, Crepes etc..), vraiment je recommande cette adresse.
+  * **Cream** : Vraiment cool pour y aller entre amis en fin d'après midi pour un goûter, ils font de copieux dessert (Gauffre, Glace, cookies, Crepes etc..), je recommande vivement cette adresse.
 
-  * Autres : Il y en a encore plein de restaurants dans lesquelles nous sommes allées, ce serait dure de les citer et donner notre avis sur chacun d'eux. Sachez également que **Deliveroo** et **Uber eat** sont présent dans Canterbury et livre partout sur le campus. C'est simple mais assez chère.
+  * Autres : Nous avons encore testé beaucoup d'adresses, ce serait difficile de les citer et donner notre avis sur chacun d'eux. Sachez également que **Deliveroo** et **Uber eat** sont présent dans Canterbury et livrent partout sur le campus. Solution de facilité mais solution les prix sont élevés.
 
-    * Pour la **nourriture**, on a expérimenté pas mal de supermarché et autres :
+    * Pour la **nourriture**, nous avons expérimenté quelques supermarchés et autres épiceries en tous genre :
 
-      * Il y a **Tesco**, il se situe au centre de Canterbury à côté d'un magasin de sport, très près de la Bus station. Le magasin est pas super grand mais il y a pas mal de choses et au niveau des prix c'est correct.
+      * **Tesco**, il se situe au centre de Canterbury à côté d'un magasin de sport, très proche de la Bus station. Le magasin est assez petit mais il y a du choix et au niveau des prix c'est correct.
 
-      * Il y a le **SaintBury's**, c'est un très grand supermarché, j'y suis aller une seule fois au tout début et je n'ai pas trop aimer et la localisation est assez éloigné.
+      * **SaintBury's**,Grand supermarché, j'y suis allé une seule fois au début mais jamais retourné car trop éloigné.
 
-      * **Good shed**, c'est un petit marché local qui se trouve juste à côté de la gare de Canterbury West, il y a plein de producteur locaux, c'est très sain et bon, pour les fruits et légumes c'est même moins chère que les grandes surfaces, en revanche pour la viande, poisson, charcuteries, fromage c'est pas mal plus chères mais cela se comprend car la qualité est au rendez-vous.
+      * **Good shed** Petit marché local qui se trouve juste à côté de la gare de Canterbury West, on y trouve de nombreux producteurs locaux,nourriture saine. Concernant les fruits et légumes c'est moins cher que les grandes surfaces, en revanche, pour la viande, poisson, charcuterie et fromage c'est beaucoup plus onéreux mais cela se comprend car la qualité est au rendez-vous.Et lorsque c'est bon, on ne compte pas ;) 
 
-      * Il y a **WaitRoses**, qui se trouve près de la bus station à côté du cinéma Odeon en ville. Ce supermarché est vraiment pas mal, c'est propre, on a envie d'y aller. Comme tous les supermarché il y a toutes les gammes de produits mais il tend plus sur la qualité, donc forcément c'est un peu plus chère que les autres. On n'y va une fois par semaine en bus, nous allons quasiment qu'à celui-ci.
+      * **WaitRoses**, se trouve près de la bus station à côté du cinéma Odeon en ville. Ce supermarché est top, c'est propre, on a envie d'y entrer. Comme tous les supermarchés, on y trouve toutes les gammes de produits mais ce dernier tend plus sur la qualité, donc forcément les prix sont un peu élevés que les autres. Les courses sont prévues une fois par semaine en bus.
 
-      * Nous n'avons pas testé les autres supermarché comme **Lidl** ou **Asda**. Cependant, beaucoup d'étudiants au **Woolf** se faisait livrer pas Asda à domicile, cela reste une solution, si vous n'avez pas envie de vous déplacer en bus avec vos courses.
+      * Nous n'avons pas testé les autres supermarchés comme **Lidl** ou **Asda**. Cependant, beaucoup d'étudiants au **Woolf** se faisaient livrer pas Asda à domicile,c'est une solution si vous n'avez pas envie de vous déplacer en bus avec vos courses.
