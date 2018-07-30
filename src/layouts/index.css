@@ -4,3 +4,108 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+.clap {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.counter_claps {
+  margin: 5px 0;
+  font-size: 13px;
+  position: absolute;
+  bottom: 40%;
+  left: -32px;
+  padding: 5px;
+  border: 1px solid white;
+  background: #ff9500;
+  border-radius: 50%;
+  color: white;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+}
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+  .Heart {
+    height: 1rem !important;
+  }
+
+  .clap {
+    right: 10px;
+  }
+
+  .counter_global {
+    font-size: 12px;
+  }
+}
+
+.Heart {
+  height: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.fire {
+  background-color: #f07f13;
+}
+
+.Heart:hover {
+  border-color: #333535;
+}
+
+.Heart__beat {
+  animation-name: pulse_animation;
+  animation-duration: 600ms;
+  animation-iteration-count: infinite;
+}
+
+.heartInside {
+  fill: #ffffff;
+}
+
+.heartOutside {
+  fill: #e04f5f;
+}
+
+.counter_global {
+  font-size: 15px;
+}
+
+@keyframes pulse_animation {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.08);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

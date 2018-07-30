@@ -30,7 +30,7 @@ const Access = styled(Link)`
   transition: 0.5s;
   font-size: 12px;
   position: relative;
-  top: 15px;
+  top: 25px;
 
   &:hover {
     background: #ff9500;
@@ -46,7 +46,7 @@ const ExtLink = styled.a`
 `;
 
 const ContainerImagePresentation = styled.div`
-  margin-top: 50px;
+  margin-top: 35px;
 `;
 
 const Img = styled.img`

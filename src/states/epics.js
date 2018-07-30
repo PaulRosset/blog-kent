@@ -1,4 +1,4 @@
-import { Observable } from "rxjs/Observable";
+import { Observable } from "rxjs";
 //import { ofType } from "redux-observable";
 import { GETBLOGPOSTS$, SORTBY$ } from "./statesActions";
 import { getBlogPosts, sortBy } from "./actions";
