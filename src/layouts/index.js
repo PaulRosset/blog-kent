@@ -36,7 +36,7 @@ class TemplateWrapper extends React.Component {
     });
   }
 
-  handleClaps = e => {
+  handleClaps = () => {
     this.setState(
       prevState => ({
         nbClaps:
@@ -52,8 +52,7 @@ class TemplateWrapper extends React.Component {
             },
             err => {
               if (err) {
-                console.log(err);
-                return;
+                return err;
               }
               this.setState({ nbClaps: 0, isEditing: false });
             }
