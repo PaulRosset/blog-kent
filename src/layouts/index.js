@@ -8,12 +8,30 @@ import firebase from "firebase/app";
 import "firebase/database";
 
 const app = firebase.initializeApp({
-  apiKey: process.env.GATSBY_API_KEY,
-  authDomain: process.env.GATSBY_AUTH_DOMAIN,
-  databaseURL: process.env.GATSBY_DATABASE_URL,
-  projectId: process.env.GATSBY_PROJECT_ID,
-  storageBucket: process.env.GATSBY_STORAGE_BUCKET,
-  messagingSenderId: process.env.GATSBY_MESSAGING_SENDER_ID,
+  apiKey:
+    process.env.NODE_ENV === "production"
+      ? process.env.GATSBY_API_KEY
+      : process.env.API_KEY,
+  authDomain:
+    process.env.NODE_ENV === "production"
+      ? process.env.GATSBY_AUTH_DOMAIN
+      : process.env.AUTH_DOMAIN,
+  databaseURL:
+    process.env.NODE_ENV === "production"
+      ? process.env.GATSBY_DATABASE_URL
+      : process.env.DATABASE_URL,
+  projectId:
+    process.env.NODE_ENV === "production"
+      ? process.env.GATSBY_PROJECT_ID
+      : process.env.PROJECT_ID,
+  storageBucket:
+    process.env.NODE_ENV === "production"
+      ? process.env.GATSBY_STORAGE_BUCKET
+      : process.env.STORAGE_BUCKET,
+  messagingSenderId:
+    process.env.NODE_ENV === "production"
+      ? process.env.GATSBY_MESSAGING_SENDER_ID
+      : process.env.MESSAGING_SENDER_ID,
 });
 
 class TemplateWrapper extends React.Component {
