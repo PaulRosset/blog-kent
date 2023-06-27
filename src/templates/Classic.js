@@ -84,6 +84,13 @@ export default function Template({ data }) {
         />
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={markdownRemark.excerpt} />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ND80VL3JT"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+          gtag('config', 'G-4ND80VL3JT');
+        </script>
       </Helmet>
       <div className="blog-post">
         <Title>{frontmatter.title}</Title>

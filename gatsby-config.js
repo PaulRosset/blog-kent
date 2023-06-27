@@ -34,12 +34,6 @@ module.exports = {
     },
     "gatsby-plugin-react-next",
     "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "UA-92424939-2",
-      },
-    },
     "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-manifest",
