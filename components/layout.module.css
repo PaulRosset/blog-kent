@@ -1,15 +1,33 @@
 .container {
-  max-width: 36rem;
+  max-width: 70rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
 }
 
 .header {
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.marginSocials {
+  margin-right: 20px;
 }
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.universities {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
