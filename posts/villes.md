@@ -1,0 +1,27 @@
+---
+path: "/blog/2017-2018/villes-au-alentour"
+date: "2018-04-09"
+title: "Les villes au alentours et sorties"
+meta: "kent, epitech, villes, alentours, sorties"
+year: "2017-2018"
+author: "@PaulRosset"
+diploma: "Advanced computer science"
+picture: "https://images.unsplash.com/photo-1518893714388-8ed554f8471b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+---
+
+### Les villes.
+
+Autour de Canterbury, se trouvent plusieurs villes faciles d'accès, grâce encore une fois à la carte de bus.  
+Nous avons eu la chance de découvrir certaines d'entre elles.
+
+- **Whistable**
+  Whistable se trouve à 15-20 min de Canterbury, ville de pêcheurs, très familiale, idéale pour se balader et sortir de Canterbury et par la même occasion du campus.
+
+- **Herne bay**
+  Herne bay se situe à quelques minutes de Whistable, ville de grande envergure.
+
+- **Folkestone**
+  Folkestone est situé un peu plus loin que les deux précédantes, elle se trouve en face de Calais en France, c'est une ville historique de par son positionnement géographique qui est une porte d'entrée sur l'Europe mais aussi une ville d'artistes avec de nombreuses oeuvres exposées au coeur de la ville.
+
+- **Londres**
+  Ville cosmopolite de grande notoriété, "the place to be", nous y sommes allés de nombreuses fois pour diverses raisons (Football, Concerts ...), je vous conseille d'y aller sans retenue,accessible en une heure max en train et 1h30 en Bus.

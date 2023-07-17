@@ -25,6 +25,17 @@
   line-height: 1.5;
 }
 
+.head {
+  margin-top: 4rem;
+  text-align: center;
+  color: #1c2d3e;
+}
+
+.resume {
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
 .borderCircle {
   border-radius: 9999px;
 }
@@ -45,6 +56,13 @@
 
 .listItem {
   margin: 0 0 1.25rem;
+  transition-duration: 400ms;
+}
+
+.listItem:hover {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 400ms;
+  transform: scale(1.05);
 }
 
 .lightText {
