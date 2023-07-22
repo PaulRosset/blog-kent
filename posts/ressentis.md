@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/ressentis-quelques-jours"
 date: "2017-09-19"
-title: "Quelques jours"
-meta: "kent, epitech, firstday, 3days"
+title: "Démarrage de ma vie d'étudiant à l'Université de Kent : Premières impressions et expériences"
+meta: "Etudiant Epitech, Echange Université Kent, Voyage, Logement Woolf College, Première expérience à Canterbury, Découverte du campus, Vie étudiante, Rencontrer des colocataires internationaux, Installations sportives"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "Mon voyage en tant qu'étudiant d'Epitech à l'Université de Kent a commencé par un vol de Nice à Gatwick, puis par un enchaînement de trains et de bus jusqu'au campus. Malgré un trajet épuisant, l'arrivée à Canterbury a été revigorante. J'ai été agréablement surpris par la qualité du campus et des installations de Woolf College. Les premiers jours ont été remplis de nouvelles expériences : découverte de la ville, rencontres avec des colocataires internationaux, et utilisation des installations sportives du campus."
 ---
 
 ### Le premier jour !

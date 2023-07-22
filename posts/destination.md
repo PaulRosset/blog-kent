@@ -2,11 +2,12 @@
 path: "/blog/2017-2018/destination-final"
 date: "2017-02-21"
 title: "Nous irons à Kent University !"
-meta: "kent, epitech, depart"
+meta: "étudiant Epitech, échange universitaire, Université de Kent, choix de vœux, diplôme, Cyber Sécurité"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1503622837776-9f673e240d47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "J'ai reçu la nouvelle excitante de mon admission à l'Université de Kent pour mon programme d'échange en tant qu'étudiant d'Epitech bien avant la date prévue. Un conseil crucial que j'ai appris est l'importance du choix des vœux - même le dernier vœux peut avoir un impact significatif sur votre destination. Les places à Kent sont attribuées en fonction des diplômes et certains, comme le diplôme en Cyber Sécurité, sont très demandés."
 ---
 
 ### Voilà, nous y sommes...

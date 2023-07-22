@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/villes-au-alentour"
 date: "2018-04-09"
-title: "Les villes au alentours et sorties"
-meta: "kent, epitech, villes, alentours, sorties"
+title: "Découvertes urbaines autour de Canterbury"
+meta: "Université de Kent, étudiant Epitech, Canterbury, Whitstable, Herne Bay, Folkestone, Londres, exploration urbaine, visites culturelles, voyages étudiants, Angleterre"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1518893714388-8ed554f8471b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "Lors de mon séjour à l'Université de Kent en tant qu'étudiant Epitech, j'ai découvert les villes environnantes de Canterbury, notamment Whitstable, Herne Bay, Folkestone et Londres. Whitstable, une charmante ville de pêcheurs, et Herne Bay, une ville plus grande, sont facilement accessibles. Folkestone, une ville historique et artistique, offre une vue magnifique sur la France. Londres, la cosmopolite, regorge de divertissements divers et variés."
 ---
 
 ### Les villes.

@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/summer-activity"
 date: "2018-06-04"
-title: "Extra-activitées de l'été"
-meta: "kent, epitech, summer"
+title: "Expérience estivale à Canterbury"
+meta: "Université de Kent, étudiant Epitech, échange étudiant, Summer Ball, Escape Game Canterbury, Punting Canterbury, activités estivales Canterbury, expérience estudiantine été"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1688118935892-b40fbf3b5e69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "Pendant mon séjour estival en tant qu'étudiant Epitech à l'Université de Kent, j'ai découvert diverses activités pour passer le temps après les examens. Le Summer Ball, bien que coûteux, est une fête organisée sur le campus avec des artistes et des manèges. Les escape games sont très divertissants et on en trouve deux à Canterbury. Faire du punting est une autre option, offrant une visite culturelle de Canterbury en bateau. Toutefois, l'été est relativement calme sur le campus, avec beaucoup d'étudiants ayant quitté pour les vacances."
 ---
 
 ### Les activités l'été

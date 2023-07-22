@@ -7,10 +7,6 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta name="language" content="fr" />
-        <meta
-          name="keywords"
-          content="paul,rosset, paul rosset, kent university, kent, epitech, abroad, England, France, blog, student"
-        ></meta>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link

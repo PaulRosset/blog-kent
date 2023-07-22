@@ -2,11 +2,12 @@
 path: "/blog/2017-2018/ceremonie"
 date: "2018-11-22"
 title: "La cérémonie de remise des diplômes"
-meta: "kent, epitech, end, finish, diplome"
+meta: "Université de Kent, étudiant Epitech, cérémonie de remise des diplômes, Cathédrale de Canterbury, vie active, expérience à l'étranger, souvenirs d'étude, nostalgie, Angleterre"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "Mon expérience en tant qu'étudiant Epitech à l'Université de Kent s'est clôturée par une cérémonie de remise des diplômes mémorable dans la cathédrale de Canterbury. Ce moment marquant nécessite une planification, notamment pour la réservation des billets et des logements. Le retour à Canterbury, après être entré dans la vie active, m'a rempli de nostalgie. Cette expérience inoubliable est maintenant à la portée des futurs étudiants."
 ---
 
 ### La cerise sur le gateau!

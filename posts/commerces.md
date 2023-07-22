@@ -2,11 +2,12 @@
 path: "/blog/2017-2018/bars-restaurants-supermarches-autres"
 date: "2017-09-20"
 title: "Les bars, restaurants, supermarchés et autres"
-meta: "kent, epitech, bars, restaurant, supermarchés, autres"
+meta: "étudiant Epitech, Université de Kent, Canterbury, bars et restaurants, vie étudiante, campus universitaire, Chapter, TreeHouse Ingoldsby, Cuban, Loft, Foundry, Cream, Tesco, WaitRoses"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1587380341844-80d936b297a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "Pendant mon séjour en tant qu'étudiant Epitech à l'Université de Kent, j'ai découvert de nombreux bars et restaurants sur le campus et à Canterbury. Bien que les options sur le campus soient variées, je recommande davantage de découvrir les établissements en ville. Des lieux comme le Chapter, le TreeHouse Ingoldsby et le Cream sont des adresses incontournables. La vie nocturne à Canterbury est dynamique, avec des clubs comme le Cuban, le Loft et le Foundry. Pour les achats alimentaires, j'ai préféré les supermarchés tels que Tesco et WaitRoses."
 ---
 
 ### Les sorties...

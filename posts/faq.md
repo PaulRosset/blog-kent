@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/faq"
 date: "2018-05-03"
-title: "Foire aux questions"
-meta: "kent, epitech, questions"
+title: "Foire aux questions Etudiant"
+meta: "Questions fréquentes des étudiants, Conseils pour les étudiants"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1565689157206-0fddef7589a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+resume: "Cette FAQ offre des réponses claires et détaillées aux questions fréquemment posées par les étudiants."
 ---
 
 ### Foire aux questions

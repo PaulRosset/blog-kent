@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/tips&trick"
 date: "2017-08-12"
-title: "Tips and Trick"
-meta: "kent, epitech, tips, trick"
+title: "Conseils de vie à Canterbury: Tips and Tricks"
+meta: "Université de Kent, étudiant Epitech, Canterbury, conseils de vie, Revolut, Oyster Card, Rail Card, transport Canterbury, Woolf College, logement étudiant, vie étudiante."
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "Pendant mon séjour en tant qu'étudiant Epitech à l'Université de Kent, j'ai accumulé de précieux conseils pour vivre économiquement à Canterbury. J'ai utilisé Revolut pour éviter les taxes bancaires, l'Oyster Card pour les déplacements à Londres, et la Rail Card pour des trajets en train à prix réduit. J'ai également bénéficié d'une offre de bus pour Canterbury et j'ai optimisé l'espace de mes bagages en utilisant des sacs hermétiques compressibles. Enfin, j'ai partagé quelques astuces sur l'utilisation des installations du Woolf College, y compris les services de blanchisserie et la réception de colis."
 ---
 
 ### Informations...

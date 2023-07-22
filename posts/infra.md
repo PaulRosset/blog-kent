@@ -2,11 +2,12 @@
 path: "/blog/2017-2018/les-infrastructures"
 date: "2018-04-13"
 title: "Les infrastructures sur le campus"
-meta: "kent, epitech, infra, campus"
+meta: "Étudiant Epitech, Échange Université Kent, Campus Université Kent, Logement étudiant, Woolf college, Darwin college, Turing college, Park Wood, Eliot, Rutherford, Keynes, Bibliothèque universitaire, Connexion Internet, Salles de séminaire, Installations sportives, Transports en commun Canterbury"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1518835693946-9578ff2c4a4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "En tant qu'étudiant d'Epitech en échange à l'Université de Kent, j'ai été impressionné par l'ampleur du campus. Les logements étudiants, ou colleges, offrent une gamme variée d'options adaptées à tous les besoins. Le campus abrite également une bibliothèque impressionnante, une connexion Internet ultra-rapide, des salles de séminaires bien équipées, et des installations sportives fantastiques. Les transports en commun sont efficaces pendant les périodes scolaires, bien que moins fréquents pendant les vacances."
 ---
 
 ### C'est géant 😮

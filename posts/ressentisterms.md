@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/ressentis-2terms"
 date: "2018-04-10"
-title: "Ressentis après 2 terms entier"
-meta: "kent, epitech, 2terms, 6mois"
+title: "Ressentis après 2 semestres complet"
+meta: "Expérience à l'Université de Kent, 6 mois à l'Université de Kent, Vie étudiante à Canterbury, Logement à Woolf College, Adaptation à la vie universitaire anglaise, Restaurants et bars à Canterbury, Influence de l'université sur Canterbury"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1554119324-ba96e91de133?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "Après six mois à l'Université de Kent, je partage mes impressions en tant qu'étudiant Epitech. J'ai créé un cercle d'amis précieux, je me suis adapté à la vie dans le logement de Woolf College et j'ai exploré la charmante ville de Canterbury. De la découverte de restaurants locaux à la compréhension de l'impact de l'université sur la ville, suivez mon parcours d'adaptation à la vie universitaire anglaise."
 ---
 
 ### Autre ressentis après 6 mois plein passé à L'Université.

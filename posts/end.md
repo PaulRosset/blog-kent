@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/end-year"
 date: "2018-08-27"
-title: "Retour sur l'année"
-meta: "kent, epitech, end, finish"
+title: "Adieu Kent : Bilan d'une année inoubliable en tant qu'étudiant Epitech en échange"
+meta: "étudiant Epitech, échange universitaire, Université de Kent, project research, Woolf, expérience d'échange, remise de diplômes, ambiance festive"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1562850734-0fe7cfdbd324?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "Mon année d'échange en tant qu'étudiant d'Epitech à l'Université de Kent s'est terminée, et ce fut une expérience inoubliable. Entre un contexte universitaire idéal et une ambiance festive, j'ai su profiter pleinement de cette occasion unique. J'ai rendu mon projet de recherche et attend la remise des diplômes en novembre. La vie à Woolf était agréable, bien que chère, et j'aurais envisagé un logement en ville pour une année supplémentaire. Je recommande vivement cette expérience à tous les futurs étudiants en échange."
 ---
 
 ### L'année se termine

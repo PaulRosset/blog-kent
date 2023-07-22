@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/exams"
 date: "2018-06-01"
-title: "Les examens de fin d'année"
-meta: "kent, epitech, exams"
+title: "Guide Pratique des Examens à l'Université de Kent : Conseils et Résultats"
+meta: "étudiant Epitech, Université de Kent, examens, par coeur, contrôle continu, salle d'examen, anciens sujets, résultats d'examen, Postgraduates, essay"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+resume: "En tant qu'étudiant Epitech en échange à l'Université de Kent, j'ai vécu les examens de fin d'année. Différents parcours ont des formats d'évaluation variés, allant des essays à un mélange d'examens et de contrôle continu. Les examens, répartis sur trois semaines de mi-mai à début juin, sont basés sur la mémorisation. Le travail régulier durant l'année est crucial pour les réussir. Les salles d'examen sont vastes et strictes pour garantir l'équité. Les anciens sujets disponibles en ligne sont utiles pour se préparer. Les résultats sont publiés en ligne en octobre pour les postgradués."
 ---
 
 ### Les examens...

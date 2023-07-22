@@ -8,7 +8,7 @@ import { HiHome } from "react-icons/hi";
 import { RxAvatar } from "react-icons/rx";
 
 export const siteTitle =
-  "Blog Kent University / Epitech - 2017/2018 - Paul Rosset";
+  "Blog Kent University / Epitech - 2017/2018 - Paul Rosset - Etudiant";
 
 export default function Layout({
   children,
@@ -22,7 +22,11 @@ export default function Layout({
       <Head>
         <meta
           name="description"
-          content="Un voyage captivant à travers ma vie en tant qu'étudiant dans une université étrangère. Rejoignez-moi alors que je partage des histoires de première main, des insights précieux et des conseils pratiques qui vous inspireront et vous guideront dans votre propre aventure d'études à l'étranger. De la navigation des différences culturelles à la résolution des défis académiques, j'explore les joies, les difficultés et les moments transformateurs qui ont façonné mon expérience d'éducation internationale. Découvrez des récits captivants, des conseils approfondis et un accompagnement d'experts sur des sujets allant du choix de la bonne destination à l'épanouissement dans un environnement multiculturel. Que vous soyez un étudiant potentiel envisageant d'étudier à l'étranger ou simplement curieux de la vie sur les campus étrangers, ce blog offre un trésor de connaissances et d'inspiration. Partons ensemble à la découverte de cette exploration immersive et révélons le pouvoir transformateur des études à l'étranger !"
+          content="En tant qu'étudiant Epitech, mon séjour à l'Université de Kent en Angleterre a été une aventure formatrice et enrichissante. Les préparations avant le départ étaient un labyrinthe de procédures, mais la perspective d'améliorer mon anglais m'a motivé. L'arrivée à Canterbury et l'accueil sur le campus compensèrent l'épuisement du voyage. J'ai été impressionné par la beauté du campus et par l'ambiance chaleureuse de mon bloc d'étudiants internationaux au Woolf College. Les premiers jours à l'Université de Kent étaient remplis de découvertes, de la ville animée de Canterbury à l'intégration avec mes colocataires de différents horizons. Malgré les défis, comme s'adapter à l'accent anglais, cette expérience a été très positive, offrant une véritable immersion dans la vie d'un étudiant universitaire international."
+        />
+        <meta
+          name="keywords"
+          content="Etudiant Epitech, Echange Université Kent, Woolf College, Canterbury, expérience internationale, Paul Rosset"
         />
         <meta
           property="og:image"

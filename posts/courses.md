@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/cours-1term-2term"
 date: "2017-10-19"
-title: "Les cours, premier Term et Second Term"
-meta: "kent, epitech, courses, works"
+title: "Advanced Computer Science à l'Université de Kent"
+meta: "étudiant Epitech, Université de Kent, Advanced Computer Science, Networks and Network Security, Computer Security, Development Frameworks, Cloud Computing, projets, examen, projets de recherche, vacances académiques"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "Mon parcours à l'Université de Kent en tant qu'étudiant Epitech en Advanced Computer Science a été riche en apprentissages. J'ai suivi différents modules, comme le \"Networks and Network Security\", \"Computer Security\", \"Development Frameworks\", \"Cloud Computing\", entre autres, qui ont constitué une base solide pour ma carrière. J'ai également eu la possibilité de choisir ou de changer de cours selon mes intérêts. La structure de l'année scolaire comprenait des projets, des examens et des vacances, avec un projet de recherche majeur à réaliser pendant l'été."
 ---
 
 ### Advanced computer science...

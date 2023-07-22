@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/papiers-a-remplir"
 date: "2017-08-26"
-title: "Infos & Papier à remplir"
-meta: "kent, epitech, papier, paperasse"
+title: "Compte à Rebours avant le Départ"
+meta: "Etudiant Epitech, Echange Université Kent, Inscription en ligne, Logement sur campus, Enregistrement de modules, Java, OOP, Partage d'informations, Conseils pour les étudiants."
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1603796846097-bee99e4a601f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "À deux semaines de mon départ pour l'Université de Kent en tant qu'étudiant d'Epitech, j'ai commencé le processus d'inscription en ligne. Il est complexe et implique de nombreux sites différents pour différents domaines tels que le logement et le sport. J'ai dû valider ma chambre et enregistrer mes modules, certains d'entre eux, comme Java et OOP, sont interdits pour les étudiants Epitech. Il est essentiel de partager les informations et les conseils pour naviguer dans ce processus."
 ---
 
 ### J - 15.

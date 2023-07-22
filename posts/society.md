@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/society"
 date: "2018-03-02"
-title: "Les societies"
-meta: "kent, epitech, societys, societies, relations"
+title: "Les societies, une expérience étudiante enrichissante"
+meta: "Université de Kent, étudiant Epitech, échange étudiant, societies universitaires, salsa society, badminton society, adhésion à la society, expérience de la society"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&w=1471&q=80"
+resume: "Dans mon expérience à l'Université de Kent comme étudiant en échange d'Epitech, j'ai découvert l'importance des societies pour faire des rencontres et partager des passions. J'ai rejoint la society de salsa et bien que j'ai essayé d'autres comme le badminton, c'est la salsa qui a retenu mon attention. La cotisation varie selon les societies, donc il est recommandé de tester une séance avant de s'engager."
 ---
 
 ### Les societies.

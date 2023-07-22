@@ -1,12 +1,13 @@
 ---
 path: "/blog/2017-2018/officialisation-logement"
 date: "2017-04-20"
-title: "Officialisation et Logement"
-meta: "kent, epitech, tips, trick"
+title: "Préparation pour un Échange Universitaire à l'Université de Kent: Exigences et Processus pour un Étudiant Epitech"
+meta: "Etudiant Epitech, Echange Université Kent, Résultats finaux, Module d'anglais, Tepitech, Woolf College, Logement étudiant, Postgraduate, Réserver chambre, Frais d'hébergement"
 year: "2017-2018"
 author: "@PaulRosset"
 diploma: "Advanced computer science"
 picture: "https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+resume: "En tant qu'étudiant d'Epitech en échange à l'Université de Kent, j'ai récemment reçu mes résultats finaux qui confirment ma place à Kent. On nous a également informé de la nécessité de suivre un module d'anglais, sauf si nous validons un score de 810 au Tepitech. Certains étudiants ont été redirigés vers d'autres diplômes en raison de scores faibles. J'ai réservé ma chambre au Woolf College, conçu pour les postgraduates et situé à proximité des salles de cours. Le loyer comprend tous les services publics."
 ---
 
 ### Résultats finaux.
