@@ -23,6 +23,16 @@ export default function Home({
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-4ND80VL3JT" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-4ND80VL3JT');
+        `}
+      </Script>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <div className={utilStyles.head}>
           <h1 className={utilStyles.headingLg}>
